@@ -216,6 +216,18 @@ Once the disk has been replaced, we need to copy the partition table from a heal
 sfdisk -d /dev/sdb | sfdisk /dev/sda 
 ```
 
+For GPT partitions (partitions larger than 2TB) use the following command:
+
+```sh
+sgdisk /dev/sdb -R /dev/sda
+```
+
+Another option is to randomize the GUID on the disk and all the partitions with the following command:
+
+```sh
+sgdisk -G /dev/sda
+```
+
 We can now rebuild the RAID array. The following code snippet shows how we can rebulid the `/dev/md2` partition layout with the recently-copied sda partition table: 
 
 ```sh
