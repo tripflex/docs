@@ -210,19 +210,21 @@ Working Devices : 2
        2       8       34        2      active sync   /dev/sdc2
 ```
 
-Once the disk has been replaced, we need to copy the partition table from a healthy disk (in this example, sdb) to the new one (sda) with the following command: 
+Once the disk has been replaced, we need to copy the partition table from a healthy disk (in this example, sdb) to the new one (sda).
+
+For MBR partitions (partitions upto 2TB), use the following command: 
 
 ```sh
 sfdisk -d /dev/sdb | sfdisk /dev/sda 
 ```
 
-For GPT partitions (partitions larger than 2TB) use the following command:
+For GPT partitions (partitions larger than 2TB), use the following command:
 
 ```sh
 sgdisk /dev/sdb -R /dev/sda
 ```
 
-Another option is to randomize the GUID on the disk and all the partitions with the following command:
+Another option is to randomize the GUID (for GPT partitions) on the disk and all the partitions with the following command:
 
 ```sh
 sgdisk -G /dev/sda
