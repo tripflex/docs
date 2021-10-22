@@ -1,7 +1,7 @@
 ---
-title: Synchronize object containers
+title: Synchronise object containers
 slug: pcs/sync-container
-excerpt: Find here how to synchronize object containers.
+excerpt: Find here how to synchronise object containers
 section: Object Storage
 ---
 
@@ -9,7 +9,7 @@ section: Object Storage
 
 ## Objective
 
-If you want to move your objects from one datacentre to another, or even from one project to another, syncing objects between containers is the best solution to avoid service interruptions during your migration.
+If you want to move your objects from one data centre to another, or even from one project to another, syncing objects between containers is the best solution to avoid service interruptions during your migration.
 
 **This guide explains how you can implement this solution.**
 
@@ -17,22 +17,22 @@ If you want to move your objects from one datacentre to another, or even from on
 
 - [Preparing the environment to use the OpenStack API](https://docs.ovh.com/gb/en/public-cloud/prepare_the_environment_for_using_the_openstack_api/) by downloading the Swift client
 - [Setting the OpenStack environment variables](https://docs.ovh.com/gb/en/public-cloud/set-openstack-environment-variables/)
-- Two object containers in two different datacentres.
+- Two object containers in two different data centres.
 
 ## Instructions
 
 > [!warning]
 >
-> If your containers contain Large Objects (objects larger than 5Gb), your containers must have the same name.
+> If your containers contain Large Objects (objects larger than 5 GB), your containers must have the same name.
 >
 
-### Configure the synchronization
+### Configure the synchronisation
 
-#### Creating  a synchronisation key
+#### Creating a synchronisation key
 
-You have to create a key and configure it on each containers, so that the containers can be identified :
+You have to create a key and configure it on each container, so that the containers can be identified:
 
-- Creating the key :
+- Creating the key:
 
 ```bash
 root@server-1:~$ sharedKey=$(openssl rand -base64 32)
@@ -55,7 +55,7 @@ OS_REGION_NAME=BHS1
 root@server-1:~$ swift post --sync-key "$sharedKey" containerBHS
 ```
 
-You can check that it has been configured correctly using the following command:
+You can check that it has been correctly configured using the following command:
 
 ```bash
   root@server-1:~$ swift stat containerBHS
@@ -76,7 +76,7 @@ Meta Access-Control-Allow-Origin: https://www.ovh.com
                     Content-Type: text/plain; charset=utf-8
 ```
 
-- Recover the address of the destination container in order to configure it on the source container :
+- Recover the address of the destination container in order to configure it on the source container:
 
 ```bash
 root@server-1:~$ destContainer=$(swift --debug stat containerBHS 2>&1 | grep 'curl -i.*storage' | awk '{ print $4 }')
@@ -84,25 +84,25 @@ root@server-1:~$ destContainer=$(swift --debug stat containerBHS 2>&1 | grep 'cu
 
 #### Configure the source container
 
-- Change the region in the environment variables :
+- Change the region in the environment variables:
 
 ```bash
 root@server-1:~$ export OS_REGION_NAME=GRA1
 ```
 
-- Configure the key on the source container :
+- Configure the key on the source container:
 
 ```bash
 root@server-1:~$ swift post --sync-key "$sharedKey" containerGRA
 ```
 
-- Configure the destination on the source container :
+- Configure the destination on the source container:
 
 ```bash
 root@server-1:~$ swift post --sync-to "//OVH_PUBLIC_CLOUD/{zone}/AUTH_account/containerDest" containerGRA
 ```
 
-As before, you can check that it has been configured correctly using the following command:
+As before, you can check that it has been correctly configured using the following command:
 
 ```bash
 root@server-1:~$ swift stat containerGRA
@@ -122,9 +122,9 @@ X-Storage-Policy: Policy-0
     Content-Type: text/plain; charset=utf-8
 ```
 
-#### Checking the synchronization
+#### Checking the synchronisation
 
-After a few moments (depending on the size and number of the files you are uploading) you can check if the synchronization worked by listing the files in each container.
+After a few moments (depending on the size and number of the files you are uploading) you can check if the synchronisation worked by listing the files in each container.
 
 - List the files in the source container :
 
