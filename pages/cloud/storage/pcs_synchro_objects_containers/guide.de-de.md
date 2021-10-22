@@ -1,6 +1,6 @@
 ---
 title: Objekt-Container synchronisieren
-excerpt: Hier erfahren Sie, wie Sie zwei Container untereinander synchronisieren.
+excerpt: Erfahren Sie hier, wie Sie zwei Container untereinander synchronisieren
 slug: objekt-container_synchronisieren
 section: Object Storage
 legacy_guide_number: g1919
@@ -10,58 +10,60 @@ legacy_guide_number: g1919
 > Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie beim geringsten Zweifel die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button “Mitmachen“ auf dieser Seite.
 >
 
-**Stand 23.09.2021**
+**Letzte Aktualisierung am 23.09.2021**
 
 ## Ziel
 
-Wenn Sie Ihre Objekte von einem Rechenzentrum in ein anderes oder sogar von einem Projekt in ein anderes verschieben möchten, ist die Synchronisation von Objekten zwischen Containern die beste Lösung, um eine Unterbrechung des Dienstes während der Migration zu vermeiden. In dieser Anleitung erfahren Sie, wie Sie diese Lösung umsetzen.
+Wenn Sie Ihre Objekte von einem Rechenzentrum in ein anderes oder sogar von einem Projekt in ein anderes verschieben möchten, ist die Synchronisation von Objekten zwischen Containern die beste Lösung, um eine Unterbrechung des Dienstes während der Migration zu vermeiden.
+
+**Diese Anleitung erklärt, wie Sie diese Lösung umsetzen.**
 
 ## Voraussetzungen
 
-- [Umgebung für die Verwendung der OpenStack-API vorbereiten](https://docs.ovh.com/de/public-cloud/vorbereitung_der_umgebung_fur_die_verwendung_der_openstack_api/) mit dem Swift-Client vorbereiten.
-- [Laden der OpenStack-Umgebungsvariablen](https://docs.ovh.com/de/public-cloud/die-variablen-der-umgebung-openstack-laden/)
-- 2 Objektcontainer in 2 verschiedenen Rechenzentren.
+- OpenStack ist bereits [auf Ihrem System installiert](https://docs.ovh.com/de/public-cloud/vorbereitung_der_umgebung_fur_die_verwendung_der_openstack_api/).
+- Sie haben die [OpenStack Umgebungsvariablen konfiguriert](https://docs.ovh.com/de/public-cloud/die-variablen-der-umgebung-openstack-laden/).
+- 2 Objekt-Container in 2 verschiedenen Rechenzentren.
 
 ## In der praktischen Anwendung
 
 > [!warning]
 >
-> Wenn Ihre Container Large Objects enthalten (Objekt über 5 Gb), müssen Ihre Container denselben Namen haben.
+> Wenn Ihre Container *Large Objects* enthalten (Objekte über 5 GB Größe), müssen Ihre Container denselben Namen haben.
 >
 
-### Synchronisationskonfiguration
+### Synchronisation einrichten
 
 #### Erstellung des Synchronisationsschlüssels
 
-Damit sich die Container identifizieren können, muss ein Schlüssel erstellt und auf jedem Objekt-Container konfiguriert werden:
+Damit sich die Container identifizieren können, muss ein Schlüssel erstellt und auf jedem Objekt-Container konfiguriert werden.
 
 - Schlüssel erstellen:
 
 ```bash
-root@serveur-1:~$ sharedKey=$(openssl rand -base64 32)
+root@server-1:~$ sharedKey=$(openssl rand -base64 32)
 ```
 
 #### Konfiguration des Empfänger-Containers
 
-Zuerst muss der Schlüssel auf dem Container konfiguriert werden, der die Daten empfängt. In unserem Fall befindet sich dieser in BHS.
+Zuerst muss der Schlüssel auf dem Container konfiguriert werden, der die Daten empfängt. Hier befindet sich dieser in BHS.
 
 - Die geladene Region in den Umgebungsvariablen überprüfen:
 
 ```bash
-root@serveur-1:~$ env | grep OS_REGION
+root@server-1:~$ env | grep OS_REGION
 OS_REGION_NAME=BHS1
 ```
 
 - Den Key im Empfänger-Container konfigurieren:
 
 ```bash
-root@serveur-1:~$ swift post --sync-key "$sharedKey" containerBHS
+root@server-1:~$ swift post --sync-key "$sharedKey" containerBHS
 ```
 
 Sie können die Konfiguration mit folgendem Befehl überprüfen:
 
 ```bash
-  root@serveur-1:~$ swift stat containerBHS
+  root@server-1:~$ swift stat containerBHS
                          Account: AUTH_b3e269xxxxxxxxxxxxxxxxxxxx2b0ba29
                        Container: containerBHS
                          Objects: 0
@@ -82,33 +84,33 @@ Meta Access-Control-Allow-Origin: https://www.ovh.com
 - Rufen Sie die Adresse des Empfänger-Containers ab und konfigurieren Sie diese anschließend im Quell-Container:
 
 ```bash
-root@serveur-1:~$ destContainer=$(swift --debug stat containerBHS 2>&1 | grep 'curl -i.*storage' | awk '{ print $4 }')
+root@server-1:~$ destContainer=$(swift --debug stat containerBHS 2>&1 | grep 'curl -i.*storage' | awk '{ print $4 }')
 ```
 
-#### Konfiguration des Quellcontainers
+#### Konfiguration des Quell-Containers
 
 - Region in den Umgebungsvariablen ändern:
 
 ```bash
-root@serveur-1:~$ export OS_REGION_NAME=GRA1
+root@server-1:~$ export OS_REGION_NAME=GRA1
 ```
 
-- Den Key im Quellcontainer konfigurieren:
+- Den Key im Quell-Container konfigurieren:
 
 ```bash
-root@serveur-1:~$ swift post --sync-key "$sharedKey" containerGRA
+root@server-1:~$ swift post --sync-key "$sharedKey" containerGRA
 ```
 
-- Den Empfänger im Quellcontainer konfigurieren:
+- Den Empfänger im Quell-Container konfigurieren:
 
 ```bash
-root@serveur-1:~$ swift post --sync-to "//OVH_PUBLIC_CLOUD/{zone}/AUTH_account/containerDest" containerGRA
+root@server-1:~$ swift post --sync-to "//OVH_PUBLIC_CLOUD/{zone}/AUTH_account/containerDest" containerGRA
 ```
 
 Wie zuvor kann die Konfigurationssicherheit mit folgendem Befehl überprüft werden:
 
 ```bash
-root@serveur-1:~$ swift stat containerGRA
+root@server-1:~$ swift stat containerGRA
          Account: AUTH_b3e269f057d14af594542d6312b0ba29
        Container: containerGRA
          Objects: 3
@@ -127,12 +129,12 @@ X-Storage-Policy: Policy-0
 
 #### Synchronisierungsprüfung
 
-Nach einigen Augenblicken (abhängig von Anzahl und Größe der zu versendenden Dateien) kann überprüft werden, ob die Synchronisation korrekt abläuft, indem die Dateien in jedem Container aufgelistet werden.
+Nach kurzer Zeit (abhängig von Anzahl und Größe der zu versendenden Dateien) kann überprüft werden, ob die Synchronisation korrekt abläuft, indem die Dateien in jedem Container aufgelistet werden.
 
-- Die im Quellcontainer vorhandenen Dateien auflisten:
+- Die im Quell-Container vorhandenen Dateien auflisten:
 
 ```bash
-root@serveur-1:~$ swift list containerGRA
+root@server-1:~$ swift list containerGRA
 test1.txt
 test2.txt
 test3.txt
@@ -141,7 +143,7 @@ test3.txt
 - Die im Empfänger-Container vorhandenen Dateien auflisten:
 
 ```bash
-root@serveur-1:~$ swift list containerBHS
+root@server-1:~$ swift list containerBHS
 test1.txt
 test2.txt
 test3.txt
@@ -149,7 +151,7 @@ test3.txt
 
 > [!success]
 >
-> Diese Anleitung kann auch für die Migration von RunAbove-Objekten in die Public Cloud verwendet werden.
+> Diese Anleitung kann auch für die Migration von Objekten aus RunAbove zu Public Cloud verwendet werden.
 >
 
 ## Weiterführende Informationen
