@@ -218,20 +218,18 @@ Working Devices : 2
 ```
 
 > [!prmiary]
-> It is important to note the partition type as execution commands may vary depending on the type of your partitions.
+> It is important to note the partition type as execution commands may vary depending on the type of partition.
 >
 
-**For partitions in MBR**:
-
 Once the disk has been replaced, we need to copy the partition table from a healthy disk (in this example, sdb) to the new one (sda) with the following command: 
+
+**For MBR partitions (partitions upto 2TB), use the following command:** 
 
 ```sh
 sfdisk -d /dev/sdb | sfdisk /dev/sda 
 ```
 
-**For partitions in GPT**:
-
-Once the disk has been replaced, we need to copy the partition table from a healthy disk (in this example, sdb) to the new one (sda) with the following command: 
+**For GPT partitions (partitions larger than 2TB), use the following command:**
 
 ```sh
 sgdisk -R=/dev/sda /dev/sdb

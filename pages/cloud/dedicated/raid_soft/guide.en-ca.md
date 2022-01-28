@@ -15,6 +15,13 @@ The default RAID level for OVHcloud server installations is RAID 1, which double
 
 **This guide will help you configure your server’s RAID array in the event that it needs to be rebuilt due to corruption or disk failure.**
 
+> [!warning]
+>
+> OVHcloud is providing you with services for which you are responsible, with regard to their configuration and security. Since we have no administrative access to your devices, it is your responsibility to manage the software and to ensure they function correctly.
+>
+> This guide is designed to help you with the most common tasks. Nevertheless, we recommend that you contact a specialised service provider if you have difficulties or doubts concerning the administration, usage or implementation of security measures on a server.
+>
+
 ## Requirements
 
 * a [dedicated server](https://www.ovhcloud.com/en-ca/bare-metal/){.external} with a software RAID configuration
@@ -210,24 +217,22 @@ Working Devices : 2
        2       8       34        2      active sync   /dev/sdc2
 ```
 
-Once the disk has been replaced, we need to copy the partition table from a healthy disk (in this example, sdb) to the new one (sda).
+> [!prmiary]
+> It is important to note the partition type as execution commands may vary depending on the type of partition.
+>
 
-For MBR partitions (partitions upto 2TB), use the following command: 
+Once the disk has been replaced, we need to copy the partition table from a healthy disk (in this example, sdb) to the new one (sda) with the following command: 
+
+**For MBR partitions (partitions upto 2TB), use the following command:** 
 
 ```sh
 sfdisk -d /dev/sdb | sfdisk /dev/sda 
 ```
 
-For GPT partitions (partitions larger than 2TB), use the following command:
+**For GPT partitions (partitions larger than 2TB), use the following command:**
 
 ```sh
-sgdisk /dev/sdb -R /dev/sda
-```
-
-Another option is to randomize the GUID (for GPT partitions) on the disk and all the partitions with the following command:
-
-```sh
-sgdisk -G /dev/sda
+sgdisk -R=/dev/sda /dev/sdb
 ```
 
 We can now rebuild the RAID array. The following code snippet shows how we can rebulid the `/dev/md2` partition layout with the recently-copied sda partition table: 
