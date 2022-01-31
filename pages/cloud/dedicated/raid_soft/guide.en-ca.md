@@ -235,6 +235,10 @@ sfdisk -d /dev/sdb | sfdisk /dev/sda
 sgdisk -R=/dev/sda /dev/sdb
 ```
 
+> [!warning]
+> Note: For GPT partitions, the syntax is the destination first (not the source).
+>
+
 We can now rebuild the RAID array. The following code snippet shows how we can rebulid the `/dev/md2` partition layout with the recently-copied sda partition table: 
 
 ```sh
