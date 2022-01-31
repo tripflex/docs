@@ -217,7 +217,7 @@ Working Devices : 2
        2       8       34        2      active sync   /dev/sdc2
 ```
 
-> [!prmiary]
+> [!primary]
 > It is important to note the partition type as execution commands may vary depending on the type of partition.
 >
 
