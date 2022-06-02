@@ -4,7 +4,7 @@ slug: migration
 section: Java
 ---
 
-**Last updated 11th May 2021**
+**Last updated 2nd June 2022**
 
 
 
@@ -29,17 +29,18 @@ To run a Java application at Web PaaS you will need:
   * The default Git repository provided by Web PaaS
 
 > [!primary]  
-> A container application cannot be bigger than **8 GB** of memory, see  [tunning](../tuning) to more details.
+> A container application can't be bigger than **8 GB** of memory.
+> For more details, see [tuning](./tuning.md).
 > 
 
 ## Monolith/Single Application
 
-To start a Java application, you need to understand the [Web PaaS structure](../../overview-structure).  At minimum you will need three [YAML files](../../configuration-yaml):
+To start a Java application, you need to understand the [Web PaaS structure](../../overview-structure).
+At minimum, you to configure your [application](../../create-apps/_index.md)
+and have two [YAML files](../../overview/yaml.md) (though they can be blank if you don't need them):
 
-1\. [Application](../../configuration-app)
-
-2\. [Route](../../configuration-routes)
-
+* [Routes](../../define-routes/_index.md)
+* [Services](../../add-services/_index.md)
 
 ### Application
 
@@ -58,27 +59,30 @@ web:
 
 1\. [A Java version](../#supported-versions), e,g.: `java:11`
 
-2\. [The build defines what happens when building the application](../../configuration-app/build#build), This build process will typically generate an executable file such as a uber-jar e.g.: `mvn clean package`
+2\. [Hooks define what happens when building the application](../../create-apps/hooks/_index.md). This build process typically generates an executable file such as a uber-jar e.g.: `mvn clean package`
 
-3\. [The commands key defines the command to launch the application](../../configuration-app/web#commands). E.g.:  `java -jar file.jar`
+3\. [The commands key defines the command to launch the application](../../create-apps/app-reference.md#web-commands). E.g.:  `java -jar file.jar`
 
-4\. In the start's command needs to receive the port where the application will execute thought the `PORT` environment. That is trivial if your application follows the port bind principle. E.g.: `java -jar jar --port=$PORT`
+4\. In the start's command needs to receive the port where the application will execute thought the `PORT` environment. That's best when your app follows the port bind principle. E.g.: `java -jar jar --port=$PORT`
 
 
 > [!primary]  
-> Be aware that after the build, it creates a read-only system. You have the [mount option to create a writable folder](../../configuration-app/storage#mounts).
 > 
+> Be aware that after the build, it creates a read-only system. You have the [mount option to create a writable folder](../../create-apps/app-reference.md#mounts).
+> 
+> 
+
 ### Route
 
 ```yaml
 # .platform/routes.yaml
 
 "https://{default}/":
-  type: upstream
-  upstream: [1]
+    type: upstream
+    upstream: [1]
 "https://www.{default}/":
-  type: redirect
-  to: "https://{default}/"
+    type: redirect
+    to: "https://{default}/"
 ```
 
 1\. It defines the application will link in the route, e.g.: `"app:http"`
@@ -96,10 +100,10 @@ You have the option to use several languages in microservices. If you're using J
 * [Gradle Multi-project](https://guides.gradle.org/creating-multi-project-builds/)
 * [Git submodules](../../development-submodules)
 
-[Web PaaS supports multiple applications](../../configuration-app/multi-app) and there are two options:
+[Web PaaS supports multiple applications](../../create-apps/multi-app.md) and there are two options:
 
-* [One application YAML file to each application](../../configuration-app)
-* [Aggregate all applications in a single file with applications.yaml](../../configuration-app/multi-app#applicationsyaml)
+* One application YAML file to each application
+* Aggregate all applications in a single file with an `applications.yaml` file
 
 | Article                                                      | Content                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -116,9 +120,9 @@ You have the option to use several languages in microservices. If you're using J
 
 ## Access to services included at Web PaaS
 
-[Web PaaS has services managed by Web PaaS itself such as database, cache and search engine](../../configuration-services). However, you can use a database or any services such as a transition process, just be aware of the [firewall](../../configuration-app/firewall).
+[Web PaaS has services managed by Web PaaS itself such as database, cache and search engine](../../../add-services). However, you can use a database or any services such as a transition process, just be aware of the [firewall](../../create-apps/app-reference.md#firewall).
 
-When applications need to access a service, it is important to include the [Relationships key](../../configuration-app/relationships), because. by default an application may not talk to any other container within a project it includes others projects as a microservices architecture.
+When applications need to access a service, it is important to include the [Relationships key](../../create-apps/app-reference.md#relationships), because. by default an application may not talk to any other container within a project it includes others projects as a microservices architecture.
 
 To connect to a service from your deployed application, you will need to pass the relationships information into your application's configuration.  The way to do so varies with the application.  The most common mechanisms are listed below.
 
@@ -126,9 +130,10 @@ To connect to a service from your deployed application, you will need to pass th
 
 If you are using a framework that follows the [Twelve-Factor App](https://12factor.net/) methodology, particularly the [third point](https://12factor.net/config), you will be able to configure the application directly from environment variables.  Examples of such frameworks include Spring, Eclipse MicroProfile Config, Quarkus, and Micronauts.
 
-The services information is available in the **PLATFORM_RELATIONSHIPS** [environment variable](../../development-variables).  It is a base64-encoded JSON object whose keys are the relationship name and the values are arrays of relationship endpoint definitions.
+The services information is available in the [**PLATFORM_RELATIONSHIPS** environment variable](../../development/variables/use-variables.md#use-platformsh-provided-variables).
+This variable is a base64-encoded JSON object with keys of the relationship name and values of arrays of relationship endpoint definitions.
 
-Web PaaS supports [jq](https://stedolan.github.io/jq/) that allows to extract information from this JSON.
+Web PaaS supports the [`jq` tool](https://stedolan.github.io/jq/), which allows to extract information from this JSON.
 
 ```shell
 export DB_HOST=`echo $PLATFORM_RELATIONSHIPS | base64 --decode | jq -r ".database[0].host"`
@@ -141,7 +146,8 @@ export DB_HOST=`echo $PLATFORM_RELATIONSHIPS | base64 --decode | jq -r ".databas
 | [Spring Data JPA](https://community.platform.sh/t/how-to-overwrite-spring-data-variable-to-access-platform-sh-services/518) | [Source](https://github.com/platformsh-examples/java-overwrite-configuration/tree/master/spring-jpa) |
 | [Payara JPA](https://community.platform.sh/t/how-to-overwrite-variables-to-payara-jpa-access-platform-sh-sql-services/519) | [Source](https://github.com/platformsh-examples/java-overwrite-configuration/blob/master/payara/README.md) |
 
-To reduce the number of lines in the application file and to make it cleaner, you have the option to move the variable environment to another file: the `.environment` [file as part of your application](../../development-variables#shell-variables).
+To reduce the number of lines in the application file and to make it cleaner,
+you have the option to move the variable environment to another file: a [`.environment` file](../../development/variables/set-variables.md#set-variables-via-script).
 
 E.g.:
 
@@ -173,7 +179,7 @@ web:
 
 ### Using Java Config Reader
 
-If your framework does not support configuration via environment variables, there is the [Web PaaS Config Reader](https://github.com/platformsh/config-reader-java).This library provides a streamlined and easy to use way to interact with a Web PaaS environment. It offers utility methods to access routes and relationships more cleanly than reading the raw environment variables yourself. [See the maven dependency](https://mvnrepository.com/artifact/sh.platform/config).
+If your framework does not support configuration via environment variables, there is the [Web PaaS Config Reader](https://github.com/platformsh/config-reader-java).This library provides a streamlined way to interact with a Web PaaS environment. It offers utility methods to access routes and relationships more cleanly than reading the raw environment variables yourself. [See the maven dependency](https://mvnrepository.com/artifact/sh.platform/config).
 
 ```java
 import Config;

@@ -4,7 +4,7 @@ slug: integrations-notifications
 section: Integrations
 ---
 
-**Last updated 25th May 2021**
+**Last updated 2nd June 2022**
 
 
 ## Objective  
@@ -92,7 +92,7 @@ X-JWS-Signature: eyJhbGciOiJIUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fYW9q
 {...request body...}
 ```
 
-Signature verification is a simple 2 step process:
+Signature verification is a 2 step process:
 
 ```python
 # 1. Compute JWS Compact Serialization with Unencoded Detached Payload

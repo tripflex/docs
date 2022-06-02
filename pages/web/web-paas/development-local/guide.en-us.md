@@ -5,7 +5,7 @@ section: Development
 order: 5
 ---
 
-**Last updated 11th May 2021**
+**Last updated 2nd June 2022**
 
 
 ## Objective  
@@ -13,7 +13,7 @@ order: 5
 While Web PaaS is great as a tool for hosting an application during both development and production, it's naturally not the ideal place to edit code.  You can't, in fact, as the file system is read-only (as it should be). The proper place to edit your code is on your computer.
 
 
-You must have an [SSH key](../development-tools#ssh) already configured on your account, and have both [Git](../development-tools#git) and the [Web PaaS CLI](../development-cli) installed before continuing.
+You need to have both [Git](../development-tools#git) and the [Web PaaS CLI](../development-cli) installed before continuing.
 
 ## Download the code
 
@@ -48,27 +48,31 @@ You will also notice a new directory in your project, `.platform/local`, which i
 
 ## Building the site locally
 
-Run the `webpaas build` command to run through the same build process as would be run on Web PaaS.  That will produce a `_www` directory in your project root that is a symlink to the currently active build in the `.platform/local/builds` folder. It should be used as the document root for your local web server.
+Run the `webpaas build` command to run through the same build process as would be run on Web PaaS.
+This creates a `_www` directory in your project root
+that's a symbolic link to the currently active build in the `.platform/local/builds` folder.
+Run your local server from the `www` directory.
 
 ```bash
-~/htdocs/my-project $ webpaas build
-Building application myapp (runtime type: php)
-  Beginning to build ~/htdocs/my-project/project.make.
-  drupal-7.38 downloaded.
-  drupal patched with install-redirect-on-empty-database-728702-36.patch.
-  Generated PATCHES.txt file for drupal
-  platform-7.x-1.3 downloaded.
-Running post-build hooks
-Symlinking files from the 'shared' directory to sites/default
+$ webpaas build
 
-Build complete for application myapp
-Web root: ~/htdocs/my-project/_www
-~/htdocs/my-project $
+Building application app (runtime type: golang:1.17)
+Running post-build hooks
+Creating symbolic links to mimic shared file mounts
+  Symlinking .cache to .platform/local/shared/cache
+
+Build complete for application app
+Web root: <PATH_TO_PROJECT>/_www
 ```
 
-Because the `webpaas build` command will run locally, any runtime or tools used in your build process need to be available in your local environment, or the build will fail.  It may also result in side effects, such as the installation on your local computer of packages referenced in your `dependencies` block.
+Because the `webpaas build` command runs locally,
+you need to have any runtime or tools used in your build process available in your local environment
+or the build fails.
 
-If that is undesireable, a local virtual machine will let you create an enclosed local development environment that won't affect your main system.
+The process may also result in side effects,
+such as the installation on your local computer of packages referenced in your `dependencies` block.
+If you don't want that, use a local virtual machine
+as an enclosed local development environment that doesn't affect your main system.
 
 ## Running the code
 

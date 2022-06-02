@@ -1,15 +1,16 @@
 ---
-title: Tethered
+title: Tethered local development
 slug: tethered
 section: Local
 ---
 
-**Last updated 11th May 2021**
+**Last updated 2nd June 2022**
 
 
-# Tethered Local
 
-The simplest way to run a project locally is to use a local web server, but keep all other services on Web PaaS and connect to them over an SSH tunnel.  This approach needs very little setup, but requires an active Internet connection, and depending on the speed of your connection and how I/O intensive your application is, it may not be performant enough for day-to-day use.
+## Objective  
+
+The simplest way to run a project locally is to use a local web server, but keep all other services on Web PaaS and connect to them over an SSH tunnel.  This approach needs very little setup, but requires an active Internet connection, and depending on the speed of your connection and how I/O intensive your application is, it may not have suitable performance for day-to-day use.
 
 ## Quick Start
 
@@ -23,14 +24,14 @@ Note that other Web PaaS environment configuration such as the routes or applica
 
 For the local web server the approach will vary depending on your language.
 
-* For a self-serving language (Go or Node.js), simply run the program locally.
-* For PHP, you may install your own copy of Nginx (or Apache) and PHP-FPM, or simply use the built-in PHP web server.  Be aware however that by default the PHP web server will ignore environment variables by default.  You will need to explicitly instruct it to read them, like so: `php -S -d variables_order=EGPCS localhost:8001`.  That will start a basic web server capable of running PHP, serving the current directory, on port 8001, using available environment variables.  See the [PHP manual](https://www.php.net/manual/en/features.commandline.webserver.php) for more information.
+* For a self-serving language (Go or Node.js), just run the program locally.
+* For PHP, you may install your own copy of Nginx (or Apache) and PHP-FPM, or just use the built-in PHP web server. Be aware however that by default the PHP web server will ignore environment variables by default. You will need to explicitly instruct it to read them, like so: `php -S -d variables_order=EGPCS localhost:8001`. That will start a basic web server capable of running PHP, serving the current directory, on port 8001, using available environment variables. See the [PHP manual](https://www.php.net/manual/en/features.commandline.webserver.php) for more information.
 * For other languages it is recommended that you install your own copy of Nginx or Apache.
 * A virtual machine or Docker image is also a viable option.
 
 ## SSH tunneling
 
-Now that the code is running, it needs to connect it to its services.  For that, open an SSH tunnel to the current project.
+Now that the code is running, it needs to connect it to its services. For that, open an SSH tunnel to the current project.
 
 ```bash
 $ webpaas tunnel:open
@@ -51,14 +52,13 @@ $ mysql --host=127.0.0.1 --port=30001 --user='user' --password='' --database='ma
 
 The specific port that each service uses is not guaranteed, but is unlikely to change unless you add an additional service or connect to multiple projects at once.  In most cases it's safe to add a local-configuration file for your application that connects to, in this case, `localhost:30001` for the SQL database and `localhost:30000` for Redis.
 
-
-After the tunnel(s) are opened, you can confirm their presence:
+After the tunnels are opened, you can confirm their presence:
 
 ```bash
 webpaas tunnel:list
 ```
 
-You can show more information about the open tunnel(s) with:
+You can show more information about the open tunnels with:
 
 ```bash
 webpaas tunnel:info
@@ -112,3 +112,5 @@ That will create a `PLATFORM_RELATIONSHIPS` environment variable locally that lo
 >>     # ...
 >> 
 >> ```     
+
+

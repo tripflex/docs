@@ -4,7 +4,7 @@ slug: integrations-overview
 section: Integrations
 ---
 
-**Last updated 2nd June 2021**
+**Last updated 2nd June 2022**
 
 
 ## Objective  
@@ -13,18 +13,25 @@ Web PaaS can be integrated with external services.
 
 Web PaaS supports native integrations with multiple services, first and foremost Git hosting services such as GitHub, GitLab, or Bitbucket.  You can continue to use those tools for your development workflow, and have Web PaaS environments created automatically for your pull requests and branches.
 
-You can also add our native integrations with performance monitoring tools such as [Blackfire](../integrations-profiling/blackfire), [New Relic](../integrations-profiling/new-relic), or [Tideways](../integrations-profiling/tideways), as well as setting up [health notifications](../integrations-notifications).  Or create your [own integration using our webhooks](../integrations-activity/webhooks).
-Be aware that only a project administrator (someone with `admin` level access to the project) can add or remove integrations. 
+You can also add native integrations with performance monitoring tools. Web PaaS recommends [Blackfire](../increase-observability/integrate-observability//blackfire.md), which is part of the standard Web PaaS Observability Suite.
+Be aware that only a project administrator (someone with `admin` level access to the project) can add or remove integrations.
+See [User administration](../administration-users) for more details.
 
 ## Listing active integrations
 
 With the CLI, you can list all your active integrations:
 
 ```bash
-webpaas integrations
-```
+$ webpaas integrations
 
-![Cli Integrations](images/cli-integrations.png "0.5")
++---------------+-------------+-------------------------------------------------------------------------------------+
+| ID            | Type        | Summary                                                                             |
++---------------+-------------+-------------------------------------------------------------------------------------+
+| abcdefghijklm | github      | Repository: platformsh/platformsh-docs                                              |
+|               |             | Hook URL:                                                                           |
+|               |             | https://eu-3.platform.sh/api/projects/123abcdefgh3i/integrations/abcdefghijklm/hook |
++---------------+-------------+-------------------------------------------------------------------------------------+
+```
 
 > [!primary]  
 > If you have created your account using the Bitbucket or GitHub oAuth Login, then in order to use the Web PaaS CLI you will need to set up a password by visiting [https://eu.console.webpaas.ovhcloud.com/](https://eu.console.webpaas.ovhcloud.com/).
@@ -49,6 +56,8 @@ The integration is valid.
 ## Debugging integrations
 
 When integrations run, they trigger "activities."  Activities are actions that happen on Web PaaS, and they get logged.
+
+Usually these are triggered nearly instantaneously on the webhook endpoint. These activities may be delayed due to the external services having latency.
 
 Those logs are available via the CLI.  In most cases they are not necessary but may be useful for debugging an integration if it is misbehaving for some reason.
 

@@ -5,7 +5,7 @@ section: Tutorials
 order: 9
 ---
 
-**Last updated 11th May 2021**
+**Last updated 2nd June 2022**
 
 
 ## Objective  
@@ -14,7 +14,9 @@ Web PaaS aims to be a great host, but we never want to lock you in to our servic
 
 ## Downloading code
 
-Your application's code is maintained in Git.  Because Git is a distributed system it is trivial to download your entire code history with a simple `git clone` or `webpaas get` command.
+Your application's code is maintained in Git.
+Because Git is a distributed system,
+you can download your entire code history by running `git clone` or `webpaas get`.
 
 ## Downloading files
 
@@ -39,14 +41,14 @@ The CLI provides a useful `mount` command for accessing mount data.
 webpaas mount:list
 ```
 
-Downloading a mount is then as simple as running the following:
+Download a mount by running the following:
 
 ```bash
 webpaas mount:download
 ```
 
 ### Using rsync
-To use `rsync` to download each directory, we can use the following commands.  The `webpaas ssh --pipe` command will return the SSH URL for the current environment as an inline string that `rsync` can recognize. To use a non-default environment, use the `-e` switch after `--pipe`.  Note that the trailing slash on the remote path means `rsync` will copy just the files inside the specified directory, not the directory itself.
+To use `rsync` to download each directory, we can use the following commands. The `webpaas ssh --pipe` command will return the SSH URL for the current environment as an inline string that `rsync` can recognize. To use a non-default environment, use the `-e` flag with an environment name after `--pipe`. Note that the trailing slash on the remote path means `rsync` will copy just the files inside the specified directory, not the directory itself.
 
 ```bash
 rsync -az `webpaas ssh --pipe`:/app/private/ ./private/
@@ -64,7 +66,7 @@ See the [`rsync` documentation](https://download.samba.org/pub/rsync/rsync.html)
 
 The mechanism for downloading from each service (such as your database) varies.  For services designed to hold non-persistent information (such as Redis or Solr) it's generally not necessary to download data as it can be rebuilt from the primary data store.
 
-To download data from persistent services ([MySQL](../configuration-services/mysql), [PostgreSQL](../configuration-services/postgresql),   or [InfluxDB](../configuration-services/influxdb)), see each service's page for instructions.
+To download data from persistent services ([MySQL](../add-services/mysql/_index.md), [PostgreSQL](../add-services/postgresql.md), [MongoDB](../add-services/mongodb.md), or [InfluxDB](../add-services/influxdb.md)), see each service's page for instructions.
 
 ## Get the environment variables
 
@@ -82,7 +84,7 @@ You can access the content of the environment variable through the management co
 
 In that case, you can run:
 `webpaas ssh -p <project id> -e <environment>`
-To access all the environment variables's values
+to access all the environment variables's values
 
 and `webpaas ssh -p <project id> -e <environment> "echo \$PLATFORM_VARIABLES | base64 -d | jq"` to access the `PLATFORM_VARIABLES`'s values.
 
