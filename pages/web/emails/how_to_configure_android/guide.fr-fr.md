@@ -75,8 +75,6 @@ Depuis votre appareil Android, rendez-vous dans l'application `Gmail`{.action}. 
 
 - **si un compte a déjà été paramétré** : appuyez sur le menu « burger » en haut à gauche, puis sur `Paramètres`{.action}. Appuyez sur  `Ajouter un compte`{.action} et choisissez `Autre`{.action}. 
 
-![mxplan](images/android-mxplan01.png){.thumbnail}
-
 | | |
 |---|---|
 |![android](images/android-mxplan01.png){.thumbnail}|Sélectionnez `Autre`{.action} dans la fenêtre **Configurer votre messagerie**|
@@ -90,7 +88,6 @@ Depuis votre appareil Android, rendez-vous dans l'application `Gmail`{.action}. 
 |Validez le certificat depuis la fenêtre qui apparait, puis appuyez sur `Suivant`{.action}|![android](images/android-mxplan04.png){.thumbnail}|
 |![android](images/android-mxplan08.png){.thumbnail}|La fenêtre **Paramètres du serveur sortant**apparait de nouveau, saisissez les informations suivantes: <br>- **Exiger une connexion** :  cochez la case<br>- **Serveur SMTP** :  ssl0.ovh.net<br>- **Port**: 465<br>- **Type de sécurité** : SSL/TLS (accepter tous les certificats)<br> Appuyez sur `Suivant`{.action}|
 |Depuisla fenêtre **Options du compte**, appliquez les paramètres qui vous conviennent|![android](images/android-mxplan04.png){.thumbnail}|
-
 
 ### Rappel des ports à utiliser en POP et IMAP
 
