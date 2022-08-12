@@ -6,7 +6,7 @@ section: Configuration sur smartphone
 order: 02
 ---
 
-**Dernière mise à jour le 21/02/2018**
+**Dernière mise à jour le 12/08/2022**
 
 ## Objectif
 
