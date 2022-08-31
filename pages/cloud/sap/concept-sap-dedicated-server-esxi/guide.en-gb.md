@@ -6,6 +6,13 @@ section: Concepts
 order: 01
 ---
 
+<style>
+#overlayContent {
+overflow: auto;
+max-height: calc(100% - 200px);
+}
+</style> 
+
 **Last updated 30th August 2022**
 
 ## Objective
