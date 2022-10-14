@@ -21,7 +21,7 @@ Les comptes Exchange peuvent être configurés sur différents logiciels de mess
 > 
 > Nous mettons à votre disposition ce guide afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [prestataire spécialisé](https://partner.ovhcloud.com/fr/) et/ou de contacter l'éditeur du service si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance. Plus d'informations dans la section « Aller plus loin » de ce guide.
 > 
-
+ 
 ## Prérequis
 
 - Disposer d'une offre [Exchange](https://www.ovhcloud.com/fr/emails/){.external}.
@@ -37,7 +37,7 @@ Les comptes Exchange peuvent être configurés sur différents logiciels de mess
 
 ## En pratique
 
-### Étape 1 : ajouter le compte
+### Ajouter le compte
 
 Sur l'écran d'accueil de votre appareil, rendez-vous sur l'application `Gmail`{.action}. L’ajout d’un compte peut s’initier de deux manières différentes :
 

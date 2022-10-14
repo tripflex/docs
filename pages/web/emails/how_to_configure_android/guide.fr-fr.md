@@ -24,7 +24,7 @@ Les adresses e-mail de l'offre MX Plan peuvent être configurées sur différent
 
 ## Prérequis
 
-- Disposer d’une adresse e-mail MX Plan (comprise dans l’offre MX Plan ou dans une offre d’[hébergement web OVHcloud](https://www.ovhcloud.com/fr/web-hosting/){.external}).
+- Disposer d’une adresse e-mail [Exchange](https://www.ovhcloud.com/fr/web-hosting/){.external}).
 - Disposer de l'application Gmail sur votre appareil. Vous pouvez installer cette dernière depuis le Google Play Store.
 - Disposer des identifiants relatifs à l'adresse e-mail que vous souhaitez paramétrer.
 
@@ -77,10 +77,9 @@ Depuis votre appareil Android, rendez-vous dans l'application `Gmail`{.action}. 
 
 | | |
 |---|---|
-|![android](images/android-mxplan01.png){.thumbnail}|Sélectionnez `Autre`{.action} dans la fenêtre **Configurer votre messagerie**|
+|![android](images/android-mxplan01.png){.thumbnail}|Sélectionnez `Exchange et Office 365`{.action} dans la fenêtre **Configurer la messagerie électronique**|
 |Saisissez votre adresse e-mail, dans la fenêtre  **Ajouter votre adresse e-mail**, puis appuyer sur `Suivant`{.action} |![android](images/android-mxplan02.png){.thumbnail}|
-|![android](images/android-mxplan03.png){.thumbnail}|À la question **De quel type de compte s'agit-il?**, vous avez deux choix: <br>-  **Personnel (POP)** : les e-mails seront transmis en local sur votre terminal et supprimé du serveur<br>- **Personnel (IMAP)** (recommandé) : Vos e-mails seront synchronisés avec vos différents terminaux|
-|Saisissez votre **mot de passe**, puis appuyer sur `Suivant`{.action} |![android](images/android-mxplan04.png){.thumbnail}|
+|![android](images/android-mxplan04.png){.thumbnail}|Saisissez votre **mot de passe**, puis appuyer sur `Suivant`{.action} |
 |![android](images/android-mxplan05.png){.thumbnail}|Depuis la fenêtre **Paramètres du serveur entrant**, Saisissez les informations suivantes: <br>- **Nom d'utilisateur** :  votre adresse e-mail complète<br>- **Mot de passe** :  le mot de passe associé à votre adresse e-mail<br>- **Serveur** :  ssl0.ovh.net<br>- **Supprimer les e-mails du serveur**: choisissez le comportement qui vous convient<br> Appuyez sur `Suivant`{.action}|
 |Validez le certificat depuis la fenêtre qui apparait, puis appuyez sur `Suivant`{.action}|![android](images/android-mxplan06.png){.thumbnail}|
 |![android](images/android-mxplan07.png){.thumbnail}|La fenêtre **Paramètres du serveur entrant** apparait de nouveau, complété les informations suivante:<br>- **Nom d'utilisateur** :  votre adresse e-mail complète<br>- **Mot de passe** :  le mot de passe associé à votre adresse e-mail<br>- **Serveur** :  ssl0.ovh.net<br>- **Port**: 993(IMAP) ou 995(POP)<br>- **Type de sécurité** : SSL/TLS (accepter tous les certificats)<br>- **Supprimer les e-mails du serveur**: choisissez le comportement qui vous convient<br> Appuyez sur `Suivant`{.action}|
@@ -117,4 +116,4 @@ OVHcloud propose également une application web permettant d'accéder à votre a
 
 [Configurer son compte Exchange sur Android via l'application Gmail](https://docs.ovh.com/fr/microsoft-collaborative-solutions/exchange-configuration-sous-android/){.external}.
 
-Échangez avec notre communauté d'utilisateurs sur [https://community.ovh.com](https://community.ovh.com){.external}.
+Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.

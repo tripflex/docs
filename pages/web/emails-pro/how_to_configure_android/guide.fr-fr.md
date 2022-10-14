@@ -5,7 +5,7 @@ excerpt: "Apprenez à configurer un compte E-mail Pro sur Android, via l'applica
 section: 'Configuration sur smartphone'
 order: 2
 ---
-
+ 
 **Dernière mise à jour le 19/03/2020**
 
 ## Objectif
@@ -66,7 +66,7 @@ Exemple:
 
 ![IMAP](images/IMAP01.gif){.thumbnail}
 
-### Étape 1 : ajouter le compte
+### Ajouter le compte
 
 > [!primary]
 >
@@ -111,7 +111,7 @@ Depuis votre appareil Android, rendez-vous dans l'application `Gmail`{.action}. 
 |Entrant|pro**?**.mail.ovh.net|SSL/TLS|995|
 |Sortant|pro**?**.mail.ovh.net|STARTTLS|587|
 
-### Étape 2 : utiliser l'adresse e-mail
+### Utiliser l'adresse e-mail
 
 Une fois l'adresse e-mail configurée, il ne reste plus qu’à l'utiliser ! Vous pouvez dès à présent envoyer et recevoir des messages.
 
@@ -123,4 +123,4 @@ OVHcloud propose également une application web disposant de [fonctions collabor
 
 [Configurer son compte Exchange sur Android via l'application Gmail](https://docs.ovh.com/fr/microsoft-collaborative-solutions/exchange-configuration-sous-android/){.external}.
 
-Échangez avec notre communauté d'utilisateurs sur [https://community.ovh.com](https://community.ovh.com){.external}.
+Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
