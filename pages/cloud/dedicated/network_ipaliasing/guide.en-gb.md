@@ -250,9 +250,41 @@ systemctl restart systemd-networkd
 Fedora now uses keyfiles, previously, NetworkManager stored network profiles in ifcfg format
 in this directory (/etc/sysconfig/network-scripts/). However, the ifcfg
 format is deprecated. By default, NetworkManager no longer creates
-new profiles in this format.
+new profiles in this format. The configuration file is now found in (/etc/NetworkManager/system-connections/)
 
+#### Step 1: Create a backup
 
+First, make a copy of the config file, so that you can revert at any time:
+
+```sh
+cp -r /etc/NetworkManager/system-connections /etc/NetworkManager/system-connections.bak
+```
+
+#### Step 2: Edit the config file
+
+> [!primary]
+> 
+> Note that the name of the network file in our example may differ from your own. Please adjust to your appropriate name. To obtain the name of your network interface so you can edit the proper network file, you can run the following command: `ip a`.
+>
+
+You can now add your Additional IP to the config file, as follows:
+
+```sh
+editor /etc/NetworkManager/system-connections/cloud-init-eno1.nmconnection
+```
+```sh
+[ipv4]
+method=auto
+may-fail=false
+address1=ADDITIONAL_IP/32
+```
+#### Step 3: Restart the interface
+
+You now need to restart your interface:
+
+```sh
+systemctl restart NetworkManager
+```
 
 ### Ubuntu 17.10 and following
 
