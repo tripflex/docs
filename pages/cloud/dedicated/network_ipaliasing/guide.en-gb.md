@@ -210,7 +210,7 @@ You now need to restart your interface:
 ```
 
 
-### Debian 9+, Ubuntu 17.04, Fedora 26+ and Arch Linux
+### Debian 9+, Ubuntu 17.04, and Arch Linux
 
 On these distributions, the naming of interfaces as eth0, eth1 (and so on) is abolished. We will therefore use `systemd-network` more generally.
 
@@ -244,6 +244,16 @@ You now need to restart your interface:
 ```sh
 systemctl restart systemd-networkd
 ```
+
+### Fedora 35+ and above
+
+Fedora now uses keyfiles, previously, NetworkManager stored network profiles in ifcfg format
+in this directory (/etc/sysconfig/network-scripts/). However, the ifcfg
+format is deprecated. By default, NetworkManager no longer creates
+new profiles in this format.
+
+
+
 ### Ubuntu 17.10 and following
 
 Each Additional IP address will need its own line in the configuration file. The configuration file is called "50-cloud-init.yaml" and is located in /etc/netplan.
