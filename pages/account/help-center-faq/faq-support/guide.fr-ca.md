@@ -31,7 +31,7 @@ OVHcloud a pris cette décision afin d’améliorer l’expérience proposée. C
 
 OVHcloud propose donc désormais une offre de support plus large et plus précise. Elle s’adapte aux besoins des entreprises, tout en continuant à donner accès à des services de gestion autonome en ligne.
 
-Découvrez et comparez les différents niveaux de support disponibles [ici](https://www.ovhcloud.com/fr/support-levels/).
+Découvrez et comparez les différents niveaux de support disponibles [ici](https://www.ovhcloud.com/fr-ca/support-levels/).
 
 ## Aller plus loin
 
