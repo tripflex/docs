@@ -28,12 +28,12 @@ Il n'est pas possible de modifier une commande. Cependant, sans paiement de votr
 
 #### Trucs et astuces
 
-Si vous avez déjà réglé votre commande, nous vous invitons à contacter [notre service client](https://www.ovhcloud.com/fr/contact/).
+Si vous avez déjà réglé votre commande, nous vous invitons à contacter [notre service client](https://www.ovhcloud.com/fr-ca/contact/).
 
 ### Comment annuler ma commande ?
 
 Sans paiement de votre part, votre commande sera automatiquement annulée dans un délai de 24 heures.
-En tant que particulier, si vous avez déjà payé votre commande et que celle-ci n'est pas liée à un service personnalisé (comme un nom de domaine) ou à une licence (telle qu'Office 365 ou SharePoint), vous pouvez vous rétracter dans les 14 jours. Nous mettons à votre disposition [un guide détaillé](https://docs.ovh.com/fr/billing/gerer-ses-commandes-ovh/#appliquer-le-droit-de-retractation) sur ce sujet.
+En tant que particulier, si vous avez déjà payé votre commande et que celle-ci n'est pas liée à un service personnalisé (comme un nom de domaine) ou à une licence (telle qu'Office 365 ou SharePoint), vous pouvez vous rétracter dans les 14 jours. Nous mettons à votre disposition [un guide détaillé](https://docs.ovh.com/ca/fr/billing/gerer-ses-commandes-ovh/#appliquer-le-droit-de-retractation) sur ce sujet.
 
 #### Trucs et astuces
 
@@ -45,11 +45,11 @@ Vous ne pouvez régler votre commande qu’une fois identifié à l’aide de vo
 
 #### Trucs et astuces
 
-Vous avez quitté la page de votre commande ? Vous pouvez la visualiser et la régler depuis votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr), dans `Mes commandes`{.action}.
+Vous avez quitté la page de votre commande ? Vous pouvez la visualiser et la régler depuis votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc), dans `Mes commandes`{.action}.
 
 ### Comment consulter le statut de mon paiement ?
 
-Connectez-vous à votre [espace client](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr), puis sur votre tableau de bord, cliquez sur le raccourci `Factures`{.action}, présent dans le bandeau de droite. Si une facture est en attente de paiement, directement sur votre tableau de bord, il vous sera proposé d'en régler le solde.
+Connectez-vous à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc), puis sur votre tableau de bord, cliquez sur le raccourci `Factures`{.action}, présent dans le bandeau de droite. Si une facture est en attente de paiement, directement sur votre tableau de bord, il vous sera proposé d'en régler le solde.
 
 #### Trucs et astuces
 
@@ -63,7 +63,7 @@ Connectez-vous à votre espace client, puis une fois sur votre tableau de bord, 
 
 #### Trucs et astuces
 
-Afin de vous aider à gérer vos commandes, nous mettons à votre disposition [un guide détaillé](https://docs.ovh.com/fr/billing/gerer-ses-commandes-ovh/).
+Afin de vous aider à gérer vos commandes, nous mettons à votre disposition [un guide détaillé](https://docs.ovh.com/ca/fr/billing/gerer-ses-commandes-ovh/).
 
 ## Aller plus loin
 
