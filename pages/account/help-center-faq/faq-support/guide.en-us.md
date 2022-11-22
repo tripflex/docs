@@ -1,13 +1,13 @@
 ---
 title: OVHcloud Support FAQ
-excerpt: Find the most frequently asked questions on OVHcloud support
+excerpt: Find the most frequently asked questions about the OVHcloud support
 ---
 
 **Last updated 10th November 2022**
-  
+
 ## Objective
 
-Find the most frequently asked questions on OVHcloud support
+Find the most frequently asked questions about the OVHcloud support.
 
 ### What should I do if I can't reach support by phone?
 

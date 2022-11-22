@@ -4,10 +4,10 @@ excerpt: Najczęściej zadawane pytania znajdziesz w pomocy OVHcloud
 ---
 
 **Ostatnia aktualizacja z dnia 10/11/2022**
-  
+
 ## Wprowadzenie
 
-Najczęściej zadawane pytania znajdziesz w pomocy OVHcloud
+Najczęściej zadawane pytania znajdziesz w pomocy OVHcloud.
 
 ### Co zrobić, kiedy nie mogę połączyć się z działem wsparcia klienta przez telefon?
 

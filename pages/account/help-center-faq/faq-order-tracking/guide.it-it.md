@@ -4,40 +4,10 @@ excerpt: "Scopri le domande più frequenti sul monitoraggio degli ordini OVHclou
 ---
 
 **Ultimo aggiornamento: 10/11/2022**
-  
+
 ## Obiettivo
 
 Scopri le domande più frequenti sul monitoraggio degli ordini OVHcloud
-
-### Perché l’ordine non è stato consegnato?
-
-L’eventuale ritardo nella consegna di un ordine può essere dovuto a diversi motivi.
-Per garantire una protezione adeguata ai propri clienti OVHcloud presta particolare attenzione alla sicurezza delle transazioni finanziarie e, proprio per questo, ha implementato una procedura di convalida casuale dei pagamenti che potrebbe rallentare alcuni ordini. Per verificare che sia il tuo caso, consulta lo stato dei pagamenti nella sezione `Fatturazione`{.action} dello Spazio Cliente.
-
-Un’altra possibile causa potrebbe essere il mancato pagamento di una fattura. In questo caso ti consigliamo di saldare l’importo dovuto dalla sezione `Fatturazione`{.action} dello Spazio Cliente.
-
-![ordine non è stato consegnato](images/billing_final_0.gif){.thumbnail}
-
-#### Consigli e suggerimenti
-
-Nella sezione `Metodi di pagamento`{.action} dello Spazio Cliente è possibile salvare un metodo di pagamento predefinito per saldare automaticamente le proprie fatture.
-
-### Come modificare un ordine?
-
-L’ordine non può essere modificato ma, se non ne viene effettuato il saldo, viene automaticamente eliminato alla data di scadenza.
-
-#### Consigli e suggerimenti
-
-Se hai già eseguito il pagamento dell’ordine, contatta il nostro [servizio clienti](https://www.ovhcloud.com/it/contact/).
-
-### Come annullare un ordine?
-
-Se il pagamento non viene effettuato, l’ordine è automaticamente annullato con tempistiche che variano in base al tipo di servizio.
-Se sei un privato e hai già eseguito il pagamento di un ordine non relativo a un servizio personalizzato (ad esempio un dominio) o una licenza (come Office 365, SharePoint, Plesk, Windows, ecc...), è possibile esercitare il diritto di recesso entro 14 giorni. Per maggiori informazioni, consulta [questa guida](https://docs.ovh.com/it/billing/gestire-ordini-ovh/#esercita-il-diritto-di-recesso).
-
-#### Consigli e suggerimenti
-
-Se sei un professionista, non sei vincolato alle informazioni preliminari del Codice del Consumo relativo al diritto di recesso di 14 giorni.
 
 ### Come pagare un nuovo ordine?
 
@@ -46,7 +16,6 @@ Il pagamento dell'ordine può essere effettuato solo dopo l'identificazione tram
 #### Consigli e suggerimenti
 
 Se hai chiuso la pagina del tuo ordine, è possibile visualizzarla ed effettuare il pagamento dallo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it), sezione `I tuoi ordini`{.action}.
-
 
 ### Come verificare lo stato di un pagamento?
 
@@ -66,6 +35,36 @@ Accedendo allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotoma
 
 Per maggiori informazioni sulla gestione degli ordini, consulta [questa guida](https://docs.ovh.com/it/billing/gestire-ordini-ovh/).
 
+### Come modificare un ordine?
+
+L’ordine non può essere modificato ma, se non ne viene effettuato il saldo, viene automaticamente eliminato alla data di scadenza.
+
+#### Consigli e suggerimenti
+
+Se hai già eseguito il pagamento dell’ordine, contatta il nostro [servizio clienti](https://www.ovhcloud.com/it/contact/).
+
+### Come annullare un ordine?
+
+Se il pagamento non viene effettuato, l’ordine è automaticamente annullato con tempistiche che variano in base al tipo di servizio.
+Se sei un privato e hai già eseguito il pagamento di un ordine non relativo a un servizio personalizzato (ad esempio un dominio) o una licenza (come Office 365, SharePoint, Plesk, Windows, ecc...), è possibile esercitare il diritto di recesso entro 14 giorni. Per maggiori informazioni, consulta [questa guida](https://docs.ovh.com/it/billing/gestire-ordini-ovh/#esercita-il-diritto-di-recesso).
+
+#### Consigli e suggerimenti
+
+Se sei un professionista, non sei vincolato alle informazioni preliminari del Codice del Consumo relativo al diritto di recesso di 14 giorni.
+
+### Perché l’ordine non è stato consegnato?
+
+L’eventuale ritardo nella consegna di un ordine può essere dovuto a diversi motivi.
+Per garantire una protezione adeguata ai propri clienti OVHcloud presta particolare attenzione alla sicurezza delle transazioni finanziarie e, proprio per questo, ha implementato una procedura di convalida casuale dei pagamenti che potrebbe rallentare alcuni ordini. Per verificare che sia il tuo caso, consulta lo stato dei pagamenti nella sezione `Fatturazione`{.action} dello Spazio Cliente.
+
+Un’altra possibile causa potrebbe essere il mancato pagamento di una fattura. In questo caso ti consigliamo di saldare l’importo dovuto dalla sezione `Fatturazione`{.action} dello Spazio Cliente.
+
+![ordine non è stato consegnato](images/billing_final_0.gif){.thumbnail}
+
+#### Consigli e suggerimenti
+
+Nella sezione `Metodi di pagamento`{.action} dello Spazio Cliente è possibile salvare un metodo di pagamento predefinito per saldare automaticamente le proprie fatture.
+
 ## Per saperne di più
-  
+
 Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.

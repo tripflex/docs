@@ -7,7 +7,7 @@ excerpt: Find the most frequently asked questions about managing your OVHcloud a
 
 ## Objective
 
-Find the most frequently asked questions about managing your OVHcloud account
+Here are the most frequently asked questions about managing your OVHcloud account.
 
 ### How do I create an OVHcloud account?
 

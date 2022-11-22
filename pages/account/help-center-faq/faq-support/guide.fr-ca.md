@@ -7,7 +7,7 @@ excerpt: Retrouvez les questions les plus fréquemment posées sur le support OV
 
 ## Objectif
 
-Retrouvez ici les questions les plus fréquemment posées sur le support OVHcloud
+Retrouvez ici les questions les plus fréquemment posées sur le support OVHcloud.
 
 ### Que dois-je faire si je n'arrive pas à joindre le support par téléphone ?
 

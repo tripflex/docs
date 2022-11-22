@@ -4,10 +4,10 @@ excerpt: Encuentre las preguntas más frecuentes en el soporte de OVHcloud
 ---
 
 **Última actualización: 10/11/2022**
-  
+
 ## Objetivo
 
-Encuentre aquí las preguntas más frecuentes en el soporte de OVHcloud
+Encuentre aquí las preguntas más frecuentes sobre el soporte de OVHcloud
 
 ### ¿Qué hacer si no consigo contactar con el soporte por teléfono?
 

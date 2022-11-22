@@ -7,7 +7,7 @@ excerpt: Hier finden Sie die häufigsten Fragen zur Verwaltung des OVHcloud Acco
 
 ## Ziel
 
-Hier finden Sie die häufigsten Fragen zur Verwaltung des OVHcloud Accounts.
+Hier finden Sie die häufigsten Fragen zur Verwaltung Ihres OVHcloud Accounts.
 
 ### Wie kann ich einen OVHcloud Account erstellen?
 

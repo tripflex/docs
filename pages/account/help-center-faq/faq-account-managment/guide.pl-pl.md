@@ -4,11 +4,10 @@ excerpt: Najczęściej zadawane pytania dotyczące zarządzania kontem OVHcloud
 ---
 
 **Ostatnia aktualizacja z dnia 21-11-2022**
-  
+
 ## Wprowadzenie
 
 Najczęściej zadawane pytania dotyczące zarządzania kontem OVHcloud.
-
 
 ### Jak otworzyć konto OVHcloud?
 

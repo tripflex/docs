@@ -1,14 +1,13 @@
 ---
-título: FAQ sobre o suporte da OVHcloud
+title: FAQ sobre o suporte da OVHcloud
 excerpt: Encontre as questões mais frequentes sobre o suporte da OVHcloud
 ---
 
 **Última atualização: 10/11/2022**
-  
+
 ## Objetivo
 
 Encontre as questões mais frequentes sobre o suporte da OVHcloud
-
 
 ### O que devo fazer se não conseguir contactar o Apoio ao Cliente por telefone?
 

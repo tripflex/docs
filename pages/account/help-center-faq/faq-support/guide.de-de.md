@@ -17,7 +17,6 @@ Möchten Sie nicht am Telefon warten? Dann erstellen Sie bitte eine Support-Anfr
 
 Sie können sich außerdem im Help Center mit Hilfe unserer gesamten Dokumentation informieren (FAQ, Anleitungen, Diagnostic Tools…).
 
-
 ### Warum hat sich das Support-Anfrage-Formular geändert?
 
 Mit dem neuen Anfrage-Formular wird die Ticket-Erstellung vollständiger und genauer, da wir uns auf einen Fragenkatalog stützen, der es uns ermöglicht, Ihre Anfragen besser einzuordnen: nach Art des Services, Ihrem Betreuungsbedürfnis und der Dringlichkeit Ihrer Anfrage. So können unsere Teams Ihre Anfrage ohne aufwendigen E-Mail-Verkehr schnell und effizient bearbeiten.
@@ -28,7 +27,6 @@ Das mit Ihrer Kundenkennung verbundene Support-Level wird auf dem Dashboard Ihre
 
 Entdecken und vergleichen Sie [hier](https://www.ovhcloud.com/de/support-levels/) die verfügbaren Support-Level.
 
-
 ### Warum hat OVHcloud seinen Kunden-Support erneuert?
 
 OVHcloud möchte seinen Kunden die bestmögliche Nutzererfahrung bieten. Diese soll voll und ganz Ihren Erwartungen entsprechen. Dies bedeutet: kurze Antwortzeiten auf verschiedene Fragen und eine verbesserte Servicequalität.
@@ -37,7 +35,6 @@ OVHcloud bietet von jetzt an einen erweiterten und maßgeschneiderten Support an
 
 Entdecken und vergleichen Sie [hier](https://www.ovhcloud.com/de/support-levels/) die verfügbaren Support-Level.
 
-
 ## Weiterführende Informationen
- 
+
 Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.

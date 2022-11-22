@@ -4,11 +4,10 @@ excerpt: "Trovi le domande più frequenti sulla gestione dell'account OVHcloud"
 ---
 
 **Ultimo aggiornamento: 10/11/2022**
-  
+
 ## Obiettivo
 
 Trovi le domande più frequenti sulla gestione dell'account OVHcloud.
-
 
 ### Come creare un account OVHcloud?
 

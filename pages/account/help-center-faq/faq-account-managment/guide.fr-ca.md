@@ -7,7 +7,7 @@ excerpt: Retrouvez les questions les plus fréquemment posées sur la gestion du
 
 ## Objectif
 
-Retrouvez ici les questions les plus fréquemment posées sur la gestion du compte OVHcloud.
+Retrouvez ici les questions les plus fréquemment posées sur la gestion de votre compte OVHcloud.
 
 ### Comment créer un compte OVHcloud ?
 
