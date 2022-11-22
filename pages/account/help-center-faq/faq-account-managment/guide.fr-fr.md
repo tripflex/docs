@@ -32,9 +32,7 @@ Si vous n’avez toujours pas retrouvé votre identifiant, vous avez la possibil
 ### Que faire si je ne parviens pas à me connecter à mon compte client ?
 
 Il peut arriver, pour différentes raisons, tel que l'oubli de votre mot de passe, la perte d’accès à votre adresse e-mail, ou à votre téléphone mobile pour une identification par SMS, que vous ne parveniez pas à vous identifier ou à vous connecter à votre espace client.
-Nous vous invitons, si cela vous arrive, à suivre la documentation suivante, qui vous permettra de résoudre ce type de situation :
-<https://docs.ovh.com/fr/customer/se-connecter-espace-client-ovhcloud/#que-faire-si-je-ne-parviens-pas-a-me-connecter>
-
+Nous vous invitons, si cela vous arrive, à suivre [cette documentation](https://docs.ovh.com/fr/customer/se-connecter-espace-client-ovhcloud/#login-failure), qui vous permettra de résoudre ce type de situation.
 
 ### Comment modifier mes informations personnelles ?
 
@@ -87,7 +85,6 @@ Si vous souhaitez récupérer un nom de domaine dont vous êtes le propriétaire
 
 Un guide complet sur la gestion des contacts est disponible [ici](https://docs.ovh.com/fr/customer/gestion-des-contacts/#acceder-a-la-gestion-des-contacts).
 
-
 ### Comment paramétrer ou modifier un contact de facturation ?
 
 Connectez-vous à votre espace client grâce à vos identifiants. Une fois sur votre tableau de bord, cliquez ensuite sur le raccourci "Gestion de contacts", situé dans le bandeau de droite.
@@ -101,9 +98,9 @@ Si vous souhaitez en savoir plus sur la gestion des contacts, nous vous invitons
 
 Plusieurs solutions s'offrent à vous pour sécuriser votre compte telles que :
 
-    le choix d'un mot de passe complexe
-    le renouvellement régulier de celui-ci
-    la double authentification
+- le choix d'un mot de passe complexe ;
+- le renouvellement régulier de celui-ci ;
+- la double authentification.
 
 Pour la double authentification via l'envoi d'un code  par SMS ou au travers de la restriction par IP (autorisation ou refus d'accès à certaines adresses), vous avez la possibilité d'ajouter des règles de sécurité depuis votre espace client. Ces options sont toutes disponibles dans la section « Sécurité », après avoir cliqué sur vos initiales, en haut à droite du Tableau de bord de votre espace client OVHcloud.
 
@@ -118,9 +115,9 @@ authentification. Pour ce faire, nous vous invitons à vous rendre dans
 la rubrique « Mon compte », section « Sécurité ».
 Aussi, pour activer la 2FA, plusieurs solutions s'offrent à vous pour vous authentifier :
 
-    Par SMS, via un code de sécurité
-    Depuis une application mobile compatible avec Androïd, iphone et Windows mobile
-    A l'aide d'une clé de sécurité, compatible U2F
+- par SMS, via un code de sécurité ;
+- depuis une application mobile compatible avec Android, iPhone et Windows Mobile ;
+- à l'aide d'une clé de sécurité, compatible U2F.
 
 [Plus d'informations](https://docs.ovh.com/fr/customer/securiser-son-compte-avec-une-2FA/)
 
@@ -185,3 +182,6 @@ Un membre de notre équipe vous répondra alors dès que possible.
 
 Vous pouvez, depuis votre espace client OVHcloud, ouvrir une demande d’assistance auprès du Service Clients d'OVHcloud afin d’obtenir des informations complémentaires sur le traitement de votre ticket Abuse. Pour faciliter le traitement de votre demande, veillez à bien mentionner la référence de ce ticket Abuse dans votre demande d’assistance.
 
+## Aller plus loin
+
+Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.

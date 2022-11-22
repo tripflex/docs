@@ -4,7 +4,7 @@ excerpt: Encontre as questões mais frequentes sobre a gestão da conta OVHcloud
 ---
 
 **Última atualização: 21/11/2022**
-  
+
 ## Objetivo
 
 Encontre as questões mais frequentes sobre a gestão da conta OVHcloud.
@@ -32,8 +32,7 @@ A qualquer momento, se estiver ligado à sua Área de Cliente, pode encontrar o 
 ### O que devo fazer se não conseguir aceder à minha conta de cliente?
 
 Por várias razões, tais como o esquecimento da sua palavra-passe, a perda de acesso ao seu endereço de e-mail ou ao seu telemóvel para uma identificação por SMS, pode acontecer que não consiga identificar-se ou conectar-se à sua Área de Cliente.
-Se isso lhe acontecer, siga os passos nos seguintes documentos, que lhe permitirão resolver este tipo de situação:
-[docs.ovh.com/pt/customer/conectar-se-espaco-cliente-ovhcloud/#o-que-fazer-se-nao-conseguir-ligar-me](https://docs.ovh.com/pt/customer/conectar-se-espaco-cliente-ovhcloud/#o-que-fazer-se-nao-conseguir-ligar-me)
+Se for o caso, siga [este manual](https://docs.ovh.com/pt/customer/conectar-se-espaco-cliente-ovhcloud/#login-failure) para resolver este tipo de situação.
 
 ### Como alterar os meus dados pessoais?
 
@@ -59,7 +58,6 @@ Para conhecer o impacto do Regulamento Geral sobre a Proteção de Dados (RGPD) 
 
 - [“A OVHcloud e a proteção de dados pessoais”](https://www.ovhcloud.com/pt/personal-data-protection/);
 - [“RGPD - Resposta a questões frequentes”](https://www.ovhcloud.com/pt/personal-data-protection/faq/?lsdDoc=faq.xml).
-
 
 ### Como modificar a minha palavra-passe OVHcloud?
 
@@ -96,9 +94,9 @@ Se deseja saber mais sobre a gestão dos contactos, consulte este manual pormeno
 
 Tem à sua disposição várias soluções para proteger a sua conta tais como:
 
-    a escolha de uma palavra-passe complexa
-    a renovação regular do
-    dupla autenticação
+- a escolha de uma palavra-passe complexa
+- a renovação regular desta palavra-passe
+- dupla autenticação
 
 Para a dupla autenticação através do envio de um código por SMS ou através da restrição por IP (autorização ou recusa de acesso a certos endereços), tem a possibilidade de adicionar regras de segurança a partir do seu Espaço Cliente. Todas estas opções estão disponíveis na secção "Segurança", clicando nas suas iniciais no canto superior direito do painel de controlo da Área de Cliente OVHcloud.
 
@@ -108,9 +106,9 @@ Para mais informações, visualize o [vídeo](https://www.youtube.com/watch?v=od
 
 Depois de criar a sua conta de cliente OVHcloud, recomendamos que proteja os seus dados pessoais, ativando a dupla autenticação. Para isso, sugerimos que aceda à secção "A minha conta" > "Segurança". Assim, para ativar a 2FA, existem várias soluções para a autenticação:
 
-    Por SMS, através de um código de segurança
-    A partir de uma aplicação móvel compatível com Android, iPhone e Windows Mobile
-    Com uma chave de segurança, compatível com U2F
+- Por SMS, através de um código de segurança
+- A partir de uma aplicação móvel compatível com Android, iPhone e Windows Mobile
+- Com uma chave de segurança, compatível com U2F
 
 [Saber mais](https://docs.ovh.com/pt/customer/proteger-a-sua-conta-com-uma-2FA/)
 

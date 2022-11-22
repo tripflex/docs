@@ -4,7 +4,7 @@ excerpt: Find the most frequently asked questions about managing your OVHcloud a
 ---
 
 **Last updated 21th November 2022**
-  
+
 ## Objective
 
 Find the most frequently asked questions about managing your OVHcloud account
@@ -32,8 +32,7 @@ When you are logged into the OVHcloud Control Panel, you will find your username
 ### What do I do if I can't log in to my customer account?
 
 For various reasons — such as forgetting your password, losing access to your email address, or to your mobile phone for an SMS identification — you may not be able to log in to the OVHcloud Control Panel.
-If this happens to you, please follow this guide, which is designed for resolving situations like this:
-[docs.ovh.com/sg/en/customer/log-in-to-ovhcloud-control-panel/](https://docs.ovh.com/sg/en/customer/log-in-to-ovhcloud-control-panel/)
+If this happens to you, please follow [this guide](https://docs.ovh.com/sg/en/customer/#login-failure), which is designed for resolving situations like this.
 
 ### How do I change my personal information?
 
@@ -84,9 +83,9 @@ For further information about contact management, please read this detailed guid
 
 You can choose from several solutions to secure your account, such as:
 
-    choosing a complex password
-    regular renewal
-    two-factor authentication
+- choosing a complex password
+- regular renewal of this password
+- two-factor authentication
 
 For two-factor authentication by sending a code via SMS or through IP restriction (authorisation or refusal of access to certain addresses), you can add security rules from your Control Panel. These options are all available in the “Security” section, after clicking on your initials in the top right-hand corner of the OVHcloud Control Panel Dashboard.
 
@@ -96,9 +95,9 @@ And for more info, watch the [video](https://www.youtube.com/watch?v=odO58c4gJfc
 
 After you have created your OVHcloud customer account, we recommend securing your personal data by enabling two-factor authentication. To do this, please go to the “My account” section, then “Security”. To enable 2FA, you can use several authentication options:
 
-    By SMS, via a security code
-    From a mobile application compatible with Android, iPhone and Windows mobile
-    Using a U2F-compatible security key
+- By SMS, via a security code
+- From a mobile application compatible with Android, iPhone and Windows mobile
+- Using a U2F-compatible security key
 
 For further information, please refer to our [guide](https://docs.ovh.com/sg/en/customer/secure-account-with-2FA/).
 

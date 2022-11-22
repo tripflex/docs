@@ -33,8 +33,7 @@ Po zalogowaniu do swojej strefy klienta, identyfikator znajdziesz w prawym górn
 ### Co zrobić, jeśli nie mogę zalogować się do mojego konta klienta?
 
 Może się zdarzyć z różnych powodów, takich jak zapomnienie hasła, utrata dostępu do konta e-mail lub do telefonu komórkowego służącego do identyfikacji za pomocą SMS, że użytkownik nie jest w stanie zalogować się do Panelu klienta.
-W takiej sytuacji zachęcamy do zapoznania się z poniższą dokumentacją, z której dowiesz się, jak rozwiązać ten problem:
-[docs.ovh.com/pl/customer/logowanie-panelu-klienta-ovhcloud/#co-zrobic-jesli-nie-moge-sie-polaczyc](https://docs.ovh.com/pl/customer/logowanie-panelu-klienta-ovhcloud/#co-zrobic-jesli-nie-moge-sie-polaczyc)
+W takiej sytuacji zachęcamy do zapoznania się z poniższą [dokumentacją](https://docs.ovh.com/pl/customer/logowanie-panelu-klienta-ovhcloud/#login-failure), z której dowiesz się, jak rozwiązać ten problem.
 
 ### Jak zmienić dane osobowe?
 
@@ -97,9 +96,9 @@ Aby dowiedzieć się więcej o zarządzaniu kontaktami, zapoznaj się z treści�
 
 Aby zabezpieczyć Twoje konto, masz do wyboru kilka rozwiązań, takich jak:
 
-    wybór złożonego hasła
-    jego regularne odnowienie
-    weryfikacji dwuetapowej
+- wybór złożonego hasła
+- jego regularne odnowienie tego hasła
+- weryfikacji dwuetapowej
 
 W przypadku weryfikacji dwuetapowej za pomocą wysyłania kodu w wiadomości SMS lub poprzez ograniczenie za pomocą adresu IP (autoryzacja lub odmowa dostępu do niektórych adresów) możesz dodać reguły bezpieczeństwa w Panelu klienta. Wszystkie te opcje są dostępne w sekcji „Bezpieczeństwo” po kliknięciu na Twoje inicjały w prawym górnym rogu Panelu klienta OVHcloud.
 
@@ -113,9 +112,9 @@ uwierzytelnianie. W tym celu przejdź do
 do rubryki "Moje konto", sekcja "Bezpieczeństwo".
 Ponadto, aby aktywować 2FA, dostępnych jest kilka rozwiązań umożliwiających uwierzytelnienie:
 
-    SMS-em, za pomocą kodu bezpieczeństwa
-    Z aplikacji mobilnej kompatybilnej z systemami Android, iPhone i Windows mobile
-    Korzystając z klucza bezpieczeństwa zgodnego z U2F
+- SMS-em, za pomocą kodu bezpieczeństwa
+- Z aplikacji mobilnej kompatybilnej z systemami Android, iPhone i Windows mobile
+- Korzystając z klucza bezpieczeństwa zgodnego z U2F
 
 [Więcej informacji](https://docs.ovh.com/pl/customer/zabezpieczenie-konta-za-pomoca-2FA/)
 

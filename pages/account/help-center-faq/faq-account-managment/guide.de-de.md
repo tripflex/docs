@@ -4,7 +4,7 @@ excerpt: Hier finden Sie die häufigsten Fragen zur Verwaltung des OVHcloud Acco
 ---
 
 **Letzte Aktualisierung am 21.11.2022**
-  
+
 ## Ziel
 
 Hier finden Sie die häufigsten Fragen zur Verwaltung des OVHcloud Accounts.
@@ -31,8 +31,7 @@ Wenn Sie in Ihrem Kundencenter angemeldet sind, sehen Sie Ihre Kundenkennung jed
 ### Ich habe keinen Zugriff mehr auf meinen Kunden-Account. Was soll ich tun?
 
 Wenn Sie sich nicht anmelden oder mit Ihrem Kundencenter verbinden können, kann dies verschiedene Ursachen haben; ein vergessenes Passwort, oder vielleicht können Sie nicht mehr auf Ihre E-Mail-Adresse und Ihr Mobiltelefon zugreifen. Daran kann dann die Identifikation per SMS scheitern.
-In diesem Fall empfehlen wir Ihnen diese Hilfestellung:
-[docs.ovh.com/de/customer/sich-mit-ovhcloud-kundencenter-verbinden/#was-wenn-ich-mich-nicht-einloggen-kann](https://docs.ovh.com/de/customer/sich-mit-ovhcloud-kundencenter-verbinden/#was-wenn-ich-mich-nicht-einloggen-kann)
+In diesem Fall empfehlen wir [Ihnen diese Hilfestellung](https://docs.ovh.com/de/customer/sich-mit-ovhcloud-kundencenter-verbinden/#login-failure)
 
 ### Wie kann ich meine persönlichen Angaben ändern?
 
@@ -96,9 +95,9 @@ Lesen Sie für mehr Informationen zur Kontaktverwaltung die folgende Anleitung: 
 
 Es stehen Ihnen mehrere Lösungen zur Absicherung Ihres Accounts zur Verfügung, zum Beispiel:
 
-    die Wahl eines komplexen Passworts
-    die regelmäßige Verlängerung
-    Zwei-Faktor-Authentifizierung
+- die Wahl eines komplexen Passworts
+- die regelmäßige Verlängerung des Passworts
+- Zwei-Faktor-Authentifizierung
 
 Für die Zwei-Faktor-Authentifizierung per SMS oder über die Einschränkung per IP (Autorisierung oder Verweigerung des Zugangs zu bestimmten Adressen) können Sie über Ihr Kundencenter Sicherheitsregeln hinzufügen. Alle diese Optionen finden Sie im Bereich „Sicherheit“. Klicken Sie dazu auf dem Dashboard Ihres OVHcloud Kundencenters auf Ihre Initialen.
 
@@ -112,9 +111,9 @@ Authentifizierung. Gehen Sie dazu in die
 Rubrik „Mein Account“ und dort in „Sicherheit“.
 Sie haben mehrere Möglichkeiten, um sich zu authentifizieren und die 2FA zu aktivieren:
 
-    Per SMS mit einem Sicherheitscode
-    Über eine mobile Applikation, die kompatibel zu Android, iPhone und Windows Mobile ist
-    Mit einem U2F-kompatiblen Sicherheitsschlüssel
+- Per SMS mit einem Sicherheitscode
+- Über eine mobile Applikation, die kompatibel zu Android, iPhone und Windows Mobile ist
+- Mit einem U2F-kompatiblen Sicherheitsschlüssel
 
 [Mehr erfahren](https://docs.ovh.com/de/customer/Account-mit-2FA-absichern/)
 

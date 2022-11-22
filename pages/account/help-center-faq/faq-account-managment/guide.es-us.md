@@ -35,8 +35,7 @@ Puede consultar su ID de cliente en cualquier momento desde el área de cliente,
 
 Existen diversos motivos por los que esto puede ocurrir: no recuerda su contraseña, no tiene acceso a su cuenta de correo electrónico o su teléfono móvil para identificarse por SMS, etc.
 
-Si no puede identificarse o conectarse a su área de cliente, consulte la siguiente guía:
-[docs.ovh.com/us/es/customer/conectarse-area-de-cliente-ovhcloud/#que-hago-si-no-puedo-conectarme](https://docs.ovh.com/us/es/customer/conectarse-area-de-cliente-ovhcloud/#que-hago-si-no-puedo-conectarme)
+Si no puede identificarse o conectarse a su área de cliente, consulte [la siguiente guía](https://docs.ovh.com/us/es/customer/conectarse-area-de-cliente-ovhcloud/#login-failure).
 
 ### ¿Cómo modificar mis datos personales?
 
@@ -92,9 +91,9 @@ Si desea más información sobre la gestión de los contactos, consulte nuestra 
 
 Existen diversas formas de proteger su cuenta:
 
-    elegir una contraseña compleja
-    la renovación regular del servicio
-    doble autenticación
+- elegir una contraseña compleja
+- la renovación regular de esta contraseña
+- doble autenticación
 
 Para la doble autenticación mediante el envío de un código por SMS o a través de la restricción por IP (autorización o denegación de acceso a determinadas direcciones), tiene la posibilidad de añadir reglas de seguridad desde su área de cliente. Estas opciones están disponibles en la sección «Seguridad» de su perfil. Para acceder a ella, haga clic en sus iniciales, en la esquina superior derecha del panel de control de su área de cliente de OVHcloud.
 
@@ -106,9 +105,9 @@ Una vez que haya creado su cuenta de cliente de OVHcloud, le recomendamos que p
 
 Al activar la doble autenticación o 2FA, podrá elegir el método con el que desea autenticarse:
 
-    por SMS, a través de un código de seguridad;
-    desde una aplicación móvil compatible con Android, iPhone y Windows móvil;
-    con una llave de seguridad compatible con U2F.
+- por SMS, a través de un código de seguridad;
+- desde una aplicación móvil compatible con Android, iPhone y Windows móvil;
+- con una llave de seguridad compatible con U2F.
 
 [Más información](https://docs.ovh.com/us/es/customer/proteger-su-cuenta-con-una-2FA/)
 
@@ -167,5 +166,5 @@ Nuestro equipo le responderá lo antes posible.
 Puede crear un tíquet de asistencia desde su área de cliente de OVHcloud para solicitar información adicional sobre el tratamiento de su tíquet de Abuse. Por favor, incluya la referencia de su tíquet de Abuse para facilitar el tratamiento del tíquet de asistencia.
 
 ## Más información
-  
+
 Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
