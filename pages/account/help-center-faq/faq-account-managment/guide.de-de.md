@@ -103,3 +103,76 @@ Es stehen Ihnen mehrere Lösungen zur Absicherung Ihres Accounts zur Verfügung,
 Für die Zwei-Faktor-Authentifizierung per SMS oder über die Einschränkung per IP (Autorisierung oder Verweigerung des Zugangs zu bestimmten Adressen) können Sie über Ihr Kundencenter Sicherheitsregeln hinzufügen. Alle diese Optionen finden Sie im Bereich „Sicherheit“. Klicken Sie dazu auf dem Dashboard Ihres OVHcloud Kundencenters auf Ihre Initialen.
 
 Für mehr Informationen sehen Sie das [Video](https://www.youtube.com/watch?v=odO58c4gJfc&list=PL0DynEzr_sE5MnOfJOpVJN-EhfMDWoqGS&index=24).
+
+### Wie aktiviere ich die Zwei-Faktor-Authentifizierung (2FA) von OVHcloud?
+
+Nachdem Sie Ihr Kundenkonto bei OVHcloud erstellt haben, empfehlen wir Ihnen
+Ihre persönlichen Daten zu sichern. Aktivieren Sie dazu die Zwei-Faktor-
+Authentifizierung. Gehen Sie dazu in die
+Rubrik „Mein Account“ und dort in „Sicherheit“.
+Sie haben mehrere Möglichkeiten, um sich zu authentifizieren und die 2FA zu aktivieren:
+
+    Per SMS mit einem Sicherheitscode
+    Über eine mobile Applikation, die kompatibel zu Android, iPhone und Windows Mobile ist
+    Mit einem U2F-kompatiblen Sicherheitsschlüssel
+
+[Mehr erfahren](https://docs.ovh.com/de/customer/Account-mit-2FA-absichern/)
+
+### Wie kann ich die Zwei-Faktor-Authentifizierung (2FA) von OVHcloud deaktivieren?
+
+Wenn Sie die Zwei-Faktor-Authentifizierung deaktivieren möchten, melden Sie sich bitte in Ihrem Kundencenter an. Gehen Sie dort in den Bereich „Mein Account“, und dann zu „Sicherheit“.
+Hier können Sie die verschiedenen Sicherheitsvorkehrungen einzeln deaktivieren. 
+Haben Sie Ihr Gerät zur Zwei-Faktor-Authentifizierung nicht mehr, und daher keinen Zugang zu Ihrem Kundencenter? Dann wenden Sie sich bitte an den OVHcloud Kundendienst. Ein Mitarbeiter wird das Gerät manuell deaktivieren, nachdem Sie sich ausgewiesen haben.
+
+### Was kann ich tun, wenn mein OVHcloud Account gehackt wurde?
+
+Sollte Ihr OVHcloud Account missbräuchlich verwendet werden (Kundenkennung, Zahlungsmittel...), wenden Sie sich bitte umgehend an die zuständige Polizeibehörde, um Anzeige zu erstatten. -
+
+Die Behörde wird Sie daraufhin kontaktieren und die Anzeige gemeinsam mit Ihnen aufnehmen. Sobald Sie Anzeige erstattet haben, senden Sie uns bitte ein Kopie der Anzeige zu. Wir können dann interne Schritte einleiten.
+
+Ihre Kundenkennung wird infolgedessen blockiert. Missbräuchlich bestellte Dienste werden wir löschen und Ihnen die Zahlungen automatisch rückerstatten.
+
+Damit Sie Ihren Account wieder nutzen können, werden wir Sie dazu auffordern, Ihre E-Mail-Adresse und/oder Ihr Passwort über den folgenden Link zu ändern: [www.ovh.de/cgi-bin/de/procedure/procedureChangeEmail.cgi](https://www.ovh.de/cgi-bin/de/procedure/procedureChangeEmail.cgi)
+
+### Ich habe eine E-Mail erhalten, die ein Versuch von Phishing sein könnte. Angeblich kommt sie von OVHcloud. Wie kann ich eine Überprüfung veranlassen?
+
+Wie Sie einen Phishing-Versuch durch eine E-Mail oder eine SMS identifizieren und melden können, erfahren Sie in unserer Anleitung dazu [docs.ovh.com/de/customer/e-mail-betrug-phishing/](https://docs.ovh.com/de/customer/e-mail-betrug-phishing/)
+
+### Wie kann ich als Opfer missbräuchliches Verhalten oder rechtswidrige Inhalte melden, für die bei OVHcloud gehostete Dienste genutzt werden?
+
+Jegliches missbräuchliche Verhalten und illegale Inhalte können Sie auf der eigens dafür eingerichteten Plattform von OVHcloud melden: [www.ovh.com/abuse/](https://www.ovh.com/abuse/). Wählen Sie bitte die entsprechende Kategorie und füllen Sie die erforderlichen Felder aus.
+
+Dem Inhaber des jeweiligen Dienstes dürfen nur Logs und technische Daten übermittelt werden. Bitte achten Sie daher darauf, in diesen Feldern keine personenbezogenen Angaben zu machen.
+
+### Was passiert, nachdem ich einen Missbrauch gemeldet habe?
+
+Die Rechtsabteilung von OVHcloud bearbeitet Ihre Meldung schnellstmöglich und analysiert Ihre Beschwerde. Auf dieser Grundlage teilen wir Ihnen im Anschluss weiterführende Informationen mit. Wird das missbräuchliche Verhalten eines unserer Kunden bestätigt, werden wir Sie darüber informieren. Bei den fraglichen Personen wirken wir darauf hin, dieses Verhalten unverzüglich einzustellen.
+
+
+### OVHcloud hat mir eine E-Mail zu potenziell missbräuchlichem Verhalten meinerseits zugesandt. Was soll ich tun?
+
+Wenn uns ein missbräuchliches Verhalten gemeldet oder von unseren Teams festgestellt wird, erhalten Sie eine E-Mail. Das Format der E-Mail-Adresse ist „ticket+"ticket-nummer"@abuse.ovh.net“.
+
+In Anbetracht der Einzelheiten, die Sie in der E-Mail erfahren werden, werden wir Sie bitten, den Angaben nachzugehen, etwaiges missbräuchliches Verhalten einzustellen und jegliche rechtswidrigen Inhalte zu löschen.
+
+Wir empfehlen Ihnen, die Absicherung Ihrer Dienste zu überprüfen. Lassen Sie sich von diesen Anleitungen unterstützen, um auszuschließen, dass Ihre Dienste gehackt wurden und unter dem Einfluss Dritter stehen:
+
+- [Den OVHcloud Account absichern und persönliche Informationen verwalten](https://docs.ovh.com/de/customer/alles_uber_ihre_ovh_kundenkennung/)
+- [Das Passwort Ihres Accounts ändern](https://docs.ovh.com/de/customer/Passwort-verwalten/)
+- [Den OVHcloud Account mit der Zwei-Faktor-Authentifizierung absichern](https://docs.ovh.com/de/customer/Account-mit-2FA-absichern/)
+- [Die Sicherheit Ihrer Website optimieren](https://docs.ovh.com/de/hosting/website-absichern/)
+- [VPS absichern](https://docs.ovh.com/de/vps/vps-sicherheit/)
+- [Einen dedizierten Server absichern](https://docs.ovh.com/de/dedicated/dedizierten-server-sichern/)
+
+### Wie kann ich vermeiden, dass meine Dienste blockiert werden, wenn eine potenzielle missbräuchliche Verwendung eines meiner OVHcloud Dienste festgestellt wird?
+
+Ergreifen Sie die erforderlichen Maßnahmen und antworten Sie dann bitte direkt auf die E-Mail unserer Abteilung „Abuse“. Legen Sie darin bitte diese Maßnahmen dar.
+Ein Mitarbeiter aus unserem Team wird Ihnen dann schnellstmöglich antworten.
+
+### Ich habe der Abteilung „Abuse“ von OVHcloud geantwortet, aber mein Dienst ist immer noch blockiert. Was kann ich tun?
+
+Sie haben die Möglichkeit, in Ihrem OVHcloud Kundencenter eine Support-Anfrage zu stellen und so weitere Informationen zur Bearbeitung Ihres Abuse-Tickets einzuholen. Sie erleichtern und beschleunigen die Bearbeitung Ihrer Support-Anfrage, wenn Sie darin die Referenznummer dieses Abuse-Tickets angeben.
+
+## Weiterführende Informationen
+
+Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.

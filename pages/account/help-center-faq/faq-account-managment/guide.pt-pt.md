@@ -103,3 +103,71 @@ Tem à sua disposição várias soluções para proteger a sua conta tais como:
 Para a dupla autenticação através do envio de um código por SMS ou através da restrição por IP (autorização ou recusa de acesso a certos endereços), tem a possibilidade de adicionar regras de segurança a partir do seu Espaço Cliente. Todas estas opções estão disponíveis na secção "Segurança", clicando nas suas iniciais no canto superior direito do painel de controlo da Área de Cliente OVHcloud.
 
 Para mais informações, visualize o [vídeo](https://www.youtube.com/watch?v=odO58c4gJfc&list=PL0DynEzr_sE5MnOfJOpVJN-EhfMDWoqGS&index=24).
+
+### Como ativar a dupla autenticação/2FA da OVHcloud?
+
+Depois de criar a sua conta de cliente OVHcloud, recomendamos que proteja os seus dados pessoais, ativando a dupla autenticação. Para isso, sugerimos que aceda à secção "A minha conta" > "Segurança". Assim, para ativar a 2FA, existem várias soluções para a autenticação:
+
+    Por SMS, através de um código de segurança
+    A partir de uma aplicação móvel compatível com Android, iPhone e Windows Mobile
+    Com uma chave de segurança, compatível com U2F
+
+[Saber mais](https://docs.ovh.com/pt/customer/proteger-a-sua-conta-com-uma-2FA/)
+
+### Como desativar a dupla autenticação/2FA da OVHcloud?
+
+Se pretender desativar a dupla autenticação que implementou, pode aceder à sua Área de Cliente, na secção "A minha conta" > "Segurança".
+Poderá desativar cada um dos diferentes periféricos de segurança. 
+No entanto, se já não tiver acesso à sua Área de Cliente, porque perdeu o seu periférico de dupla autenticação, recomendamos que contacte o suporte da OVHcloud para que um conselheiro desative manualmente o dispositivo, mediante a apresentação de documentos comprovativos.
+
+### O que fazer se a minha conta OVHcloud foi pirateada?
+
+Em caso de uso fraudulento da sua conta OVHcloud (identidade, método de pagamento...), convidamo-lo a apresentar queixa, o mais rapidamente possível, junto dos serviços policiais.
+
+Quando estiver na posse da queixa formal, deverá enviar-nos uma cópia. Esse documento permitirá que se dê início a um processo interno.
+
+O seu nome de utilizador será bloqueado. Os serviços subscritos de forma fraudulenta serão suprimidos e reembolsados automaticamente.
+
+Por fim, de modo a recuperar o controlo da sua conta de cliente, poderemos pedir-lhe que altere o seu endereço de e-mail e/ou a sua palavra-passe através desta ligação: [www.ovh.pt/cgi-bin/pt/procedure/procedureChangeEmail.cgi](https://www.ovh.pt/cgi-bin/pt/procedure/procedureChangeEmail.cgi)
+
+### Recebi um e-mail que parece ser phishing a usurpar a identidade da OVHcloud. Como posso chamar a vossa atenção?
+
+Para sinalizar um e-mail ou uma SMS de phishing, consulte o nosso [guia dedicado](https://docs.ovh.com/pt/customer/fraudes-online-phishing/)
+
+### Como assinalar um comportamento abusivo ou um conteúdo ilícito proveniente de serviços alojados pela OVHcloud e do qual sou vítima?
+
+Pode assinalar qualquer comportamento abusivo ou conteúdo ilícito na plataforma OVHcloud dedicada a este efeito [www.ovh.com/abuse/](https://www.ovh.com/abuse/). Selecione a categoria em causa e introduza os campos solicitados.
+
+Só os logs e os elementos técnicos podem ser transmitidos ao titular do serviço incriminado. Por favor, não inclua dados pessoais nestes campos.
+
+### Após a declaração de um abuso, o que acontece à minha queixa?
+
+A sua queixa será tratada o mais rapidamente possível pelo Serviço Jurídico da OVHcloud. A sua queixa será analisada e, em função disso, comunicar-lhe-emos mais pormenores. Após comprovação do comportamento abusivo de um dos nossos clientes, informá-lo-emos e faremos o necessário junto da(s) pessoa(s) em causa para resolver a situação o quanto antes.
+
+### A OVHcloud enviou-me um e-mail a comunicar um eventual comportamento abusivo da minha parte. O que devo fazer?
+
+Se nos foi comunicado (ou se as nossas equipas verificaram) um comportamento abusivo, receberá um e-mail proveniente de um endereço de e-mail no formato «ticket+"número-de-ticket"@abuse.ovh.net».
+
+Tendo em conta os elementos complementares que lhe serão indicados nesse e-mail, solicitamos-lhe que proceda a uma investigação a fim de remediar o comportamento abusivo e/ou de eliminar qualquer conteúdo ilícito.
+
+Para garantir que os seus serviços não estão sob o controlo de terceiros (por exemplo, na sequência de pirataria), recomendamos que verifique a respetiva segurança:
+
+- [Proteger a minha conta OVHcloud e gerir as minhas informações pessoais](https://docs.ovh.com/pt/customer/saber_tudo_sobre_o_identificador_de_cliente/)
+- [Alterar a palavra-passe da sua conta](https://docs.ovh.com/pt/customer/gerir-a-palavra-passe/)
+- [Proteger a sua conta OVHcloud com a dupla autenticação](https://docs.ovh.com/pt/customer/proteger-a-sua-conta-com-uma-2FA/)
+- [Como proteger o seu website?](https://docs.ovh.com/pt/hosting/secure-website/)
+- [Proteger um VPS](https://docs.ovh.com/pt/vps/como-proteger-vps/)
+- [Proteger um servidor dedicado](https://docs.ovh.com/pt/dedicated/proteger-um-servidor-dedicado/)
+
+### Em caso de identificação de um eventual abuso por parte de um dos meus serviços, como evitar uma suspensão?
+
+Depois de realizar as ações necessárias, responda diretamente ao e-mail que lhe foi enviado pelo nosso serviço Abuse, especificando as medidas que tomou.
+Um membro da nossa equipa irá responder-lhe o mais rapidamente possível.
+
+### Respondi ao e-mail de Abuse da OVHcloud, mas o meu serviço continua bloqueado. O que posso fazer?
+
+A partir da Área de Cliente OVHcloud, pode abrir um pedido de assistência junto do Serviço de Clientes da OVHcloud, de modo a obter informações complementares sobre o tratamento do seu ticket Abuse. Para facilitar o tratamento do seu pedido, queira mencionar no pedido de assistência a referência do ticket Abuse.
+
+## Quer saber mais?
+ 
+Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.

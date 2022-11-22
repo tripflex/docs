@@ -91,3 +91,71 @@ You can choose from several solutions to secure your account, such as:
 For two-factor authentication by sending a code via SMS or through IP restriction (authorisation or refusal of access to certain addresses), you can add security rules from your Control Panel. These options are all available in the “Security” section, after clicking on your initials in the top right-hand corner of the OVHcloud Control Panel Dashboard.
 
 And for more info, watch the [video](https://www.youtube.com/watch?v=odO58c4gJfc&list=PL0DynEzr_sE5MnOfJOpVJN-EhfMDWoqGS&index=24).
+
+### How do I enable two-factor authentication/2FA on my OVHcloud account?
+
+After you have created your OVHcloud customer account, we recommend securing your personal data by enabling two-factor authentication. To do this, please go to the “My account” section, then “Security”. To enable 2FA, you can use several authentication options:
+
+    By SMS, via a security code
+    From a mobile application compatible with Android, iPhone and Windows mobile
+    Using a U2F-compatible security key
+
+For further information, please refer to our [guide](https://docs.ovh.com/sg/en/customer/secure-account-with-2FA/).
+
+### How do I disable two-factor authentication/2FA on my OVHcloud account?
+
+If you would like to disable the two-factor authentication method you have set up, please log in to the OVHcloud Control Panel, go to the “My account” section, then “Security”.
+You can then disable the various security devices one by one. 
+However, if you no longer have access to the OVHcloud Control Panel because you have lost your two-factor authentication device, please contact OVHcloud support so that an advisor can manually disable the device. They will request supporting documents from you in order to proceed with this.
+
+### What do I do if my OVHcloud account has been hacked?
+
+If your OVHcloud account has been fraudulently used (identity, payment method, etc.), we strongly recommend filing a complaint as soon as possible with your local police force.
+
+Once you have filed it, you will need to send us a copy of the documentation. We can then start our internal processes.
+
+Your NIC handle (Customer ID) will then be blocked. Services that were fraudulently ordered will be deleted and automatically refunded.
+
+Finally, in order to regain control of your customer account, we may ask you to change your email address and/or password via this link: [www.ovh.co.uk/cgi-bin/en/procedure/procedureChangeEmail.cgi](https://www.ovh.co.uk/cgi-bin/en/procedure/procedureChangeEmail.cgi)
+
+### I have received an email that appears to be a phishing scam impersonating OVHcloud, how do I report it for verification?
+
+To identify and report a phishing email or SMS, please refer to our [dedicated guide](https://docs.ovh.com/sg/en/customer/scams-fraud-phishing/)
+
+### How do I report abusive behaviour or illegal content from services hosted by OVHcloud that I am a victim of?
+
+You can report any abusive behaviour or illegal content on the dedicated OVHcloud platform [www.ovh.com/abuse/](https://www.ovh.com/abuse/). Select the category concerned, then enter the fields requested.
+
+Only logs and technical elements can be sent to the owner of the service concerned. Please do not include any personal data in these fields.
+
+### After abuse has been reported, what happens to my report?
+
+Your report will be processed as soon as possible by OVHcloud’s legal team. Your complaint will be analysed, and we will provide you with further details. If any of our customers’ abusive behaviour is proven, we will inform you and take the necessary measures with the people concerned to put an end to it as soon as possible.
+
+### OVHcloud has sent me an email flagging potential abuse from my services, what should I do?
+
+If abusive behaviour has been reported to us or detected by our teams, you will receive an email from an email address with the following format: ticket+"ticket-number"@abuse.ovh.net.
+
+In view of the additional information provided to you in this email, we will ask you to conduct an investigation in order to stop the abusive behaviour and/or remove any illegal content.
+
+To ensure that your services are not being controlled by a third party (e.g. following a hacking incident), we recommend checking that your services are secure:
+
+- [Secure your OVHcloud account and manage your personal information](https://docs.ovh.com/sg/en/customer/all-about-your-username/)
+- [Change your account password](https://docs.ovh.com/sg/en/customer/manage-password/)
+- [Secure your OVHcloud account with two-factor authentication](https://docs.ovh.com/sg/en/customer/secure-account-with-2FA/)
+- [How to secure your website](https://docs.ovh.com/sg/en/hosting/secure-website/)
+- [Secure a VPS](https://docs.ovh.com/sg/en/vps/tips-for-securing-a-vps/)
+- [Secure a dedicated server](https://docs.ovh.com/sg/en/dedicated/securing-a-dedicated-server/)
+
+### If abuse is detected on one of my OVHcloud services, how can I avoid a suspension?
+
+Once you have carried out the required actions yourself, you will need to reply directly to the email sent to you by our Abuse team, specifying the measures you have taken.
+A member of our team will reply as soon as possible.
+
+### I replied to the OVHcloud Abuse team, but my service is still blocked. What should I do?
+
+From the OVHcloud Control Panel, you can open a support ticket to OVHcloud Customer Service for further information on how to process your Abuse ticket. To make your request easier to process, please ensure that you include the reference to this Abuse ticket in your support request.
+
+## Go further
+  
+Join our community of users on <https://community.ovh.com/en/>.
