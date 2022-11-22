@@ -7,7 +7,7 @@ excerpt: Encontre as questões mais frequentes sobre o seguimento da encomenda O
   
 ## Objetivo
 
-Encontre as questões mais frequentes sobre o seguimento da encomenda OVHcloud
+Encontre as questões mais frequentes sobre o seguimento da encomenda OVHcloud.
 
 ### Porque é que o meu serviço não foi entregue?
 

@@ -7,7 +7,7 @@ excerpt: Najczęściej zadawane pytania dotyczące śledzenia zamówień OVHclou
   
 ## Wprowadzenie
 
-Najczęściej zadawane pytania dotyczące śledzenia zamówień OVHcloud
+Najczęściej zadawane pytania dotyczące śledzenia zamówień OVHcloud.
 
 ### Dlaczego moja usługa nie została dostarczona?
 

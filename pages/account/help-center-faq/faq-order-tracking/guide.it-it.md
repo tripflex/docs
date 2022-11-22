@@ -1,6 +1,6 @@
 ---
-title: FAQ sullo stato dell'ordine OVHcloud
-excerpt: Scopri le domande più frequenti sul monitoraggio degli ordini OVHcloud
+title: "FAQ sullo stato dell'ordine OVHcloud"
+excerpt: "Scopri le domande più frequenti sul monitoraggio degli ordini OVHcloud"
 ---
 
 **Ultimo aggiornamento: 10/11/2022**

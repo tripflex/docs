@@ -7,7 +7,7 @@ excerpt: Retrouvez les questions les plus fréquemment posées sur le suivi de c
 
 ## Objectif
 
-Retrouvez ici les questions les plus fréquemment posées sur le suivi de commande OVHcloud
+Retrouvez ici les questions les plus fréquemment posées sur le suivi de commande OVHcloud.
 
 ### Pourquoi mon service n’a pas été livré ?
 

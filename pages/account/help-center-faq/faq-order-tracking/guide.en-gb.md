@@ -7,7 +7,7 @@ excerpt: Find the most frequently asked questions about OVHcloud order tracking
   
 ## Objective
 
-Find the most frequently asked questions about OVHcloud order tracking
+Find the most frequently asked questions about OVHcloud order tracking.
 
 ### Why has my service not been delivered?
 
