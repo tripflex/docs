@@ -1,10 +1,13 @@
 ---
-title: FAQ sur la facturation et le paiement
-excerpt: Retrouvez les questions les plus fréquemment posées sur la facturation et le paiement
+title: Preguntas frecuentes sobre la facturación y el pago
+excerpt: Encuentre las preguntas más frecuentes sobre la facturación y el pago
 ---
 
-**Dernière mise à jour le 08/11/2022**
+**Última actualización: 08/11/2022**
 
+## Objetivo
+
+Aquí encontrará las preguntas más frecuentes sobre la facturación y el pago de sus servicios de OVHcloud.
 
 ### ¿Cuáles son mis datos de facturación?
 
@@ -29,8 +32,6 @@ Consulte el estado de sus servicios y administre su renovación en la sección `
 Para renovar sus servicios manualmente, acceda a la página <https://www.ovh.es/cgi-bin/order/renew.cgi>.
 Para más información, consulte nuestra guía [Gestionar la renovación de los servicios](https://docs.ovh.com/es/billing/renovacion-automatica-ovh/).
 
-
-
 ### ¿Cómo abonar las facturas pendientes de pago?
 
 Puede consultar los estados del pago de los servicios directamente en el panel de control de su área de cliente de OVHcloud.
@@ -43,7 +44,6 @@ Si no ha configurado ninguna forma de pago pero tiene servicios con renovación 
 
 Tenga a mano su ID de cliente y su contraseña de OVHcloud. Los necesitará para abonar las facturas.
 Asimismo, puede consultar el apartado «Abonar el importe pendiente» de nuestra guía [Gestionar las facturas de OVHcloud](https://docs.ovh.com/es/billing/gestionar-facturas-ovh/#abonar-el-importe-pendiente).
-
 
 ### ¿Cuál es la fecha del próximo pago?
 
@@ -184,7 +184,6 @@ La facturación de Public Cloud incluye, por un lado, los recursos con pago por 
 
 Si desea más información, consulte nuestra guía [Analizar y gestionar la facturación](https://docs.ovh.com/es/public-cloud/informacion-sobre-el-tipo-de-facturacion-cloud/).
 
-
 ### ¿Cómo consultar el libro mayor?
 
 Para consultar el libro mayor, acuda a su propio departamento de contabilidad.
@@ -193,24 +192,6 @@ No obstante, OVHcloud pone a su disposición todas sus facturas a través de un 
 
 Para descargarlo, acceda a la sección `Facturas`{.action} disponible en la columna derecha del panel de control de su área de cliente de OVHcloud. Será redirigido a la página `Facturación`{.action}. Una vez allí, haga clic en el botón `Acciones`{.action} y seleccione `Exportar en CSV`{.action}.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Más información
+  
+Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.

@@ -1,9 +1,13 @@
 ---
-title: FAQ sur la facturation et le paiement
-excerpt: Retrouvez les questions les plus fréquemment posées sur la facturation et le paiement
+title: FAQ dotyczący płatności i fakturowania
+excerpt: Znajdziesz najczęściej zadawane pytania dotyczące płatności i fakturowania
 ---
 
-**Dernière mise à jour le 08/11/2022**
+**Ostatnia aktualizacja z dnia 08/11/2022**
+  
+## Wprowadzenie
+
+Znajdziesz tutaj najczęściej zadawane pytania dotyczące fakturowania i płatności za usługi OVHcloud.
 
 ### Kto jest kontaktem księgowym przypisanym do usługi?
 
@@ -188,24 +192,6 @@ OVHcloud zapewnia dostęp do wszystkich faktur za pośrednictwem pliku Excel (.
 
 Aby pobrać fakturę, przejdź do sekcji `Faktury`{.action} widocznej na dashboardzie w Panelu klienta. Następnie kliknij przycisk `Operacje`{.action} i wybierz `Eksport CSV`{.action}.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Sprawdź również
+ 
+Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.

@@ -1,10 +1,13 @@
 ---
-title: FAQ sur la facturation et le paiement
-excerpt: Retrouvez les questions les plus fréquemment posées sur la facturation et le paiement
+title: FAQ fatturazione e pagamento
+excerpt: Scopri le domande più frequenti su fatturazione e pagamento
 ---
 
 **Dernière mise à jour le 08/11/2022**
 
+## Obiettivo
+  
+Per maggiori informazioni, consulta le domande relative alla fatturazione e al pagamento dei servizi OVHcloud.
 
 ### Come conoscere l’account di fatturazione?
 
@@ -13,7 +16,6 @@ La lista dei contatti associati ai servizi sono indicati nella sezione `I tuoi c
 #### Consigli e suggerimenti
 
 Per maggiori informazione sulla gestione dei contatti, consulta la guida [Gestire i contatti dei servizi](https://docs.ovh.com/it/customer/gestisci_i_tuoi_contatti/).
-
 
 ### Come rinnovare un servizio?
 
@@ -25,7 +27,6 @@ Per alcune soluzioni (come domini, hosting Web, VPS e server dedicati) è possib
 Per consultare lo stato dei servizi e gestire il loro rinnovo, accedi alla sezione `I tuoi servizi`{.action} dello Spazio Cliente.
 Per effettuare il rinnovo manuale, accedi alla pagina <https://www.ovh.it/cgi-bin/order/renew.cgi>
 Per maggiori informazioni, consulta la guida [Gestire il rinnovo dei servizi](https://docs.ovh.com/it/billing/imposta_il_rinnovo_automatico_dei_tuoi_servizi_ovh/).
-
 
 ### Come saldare gli importi dovuti?
 
@@ -39,7 +40,6 @@ Se invece i servizi risultano in rinnovo automatico ma non è stato salvato alcu
 
 Se hai a disposizione l’identificativo OVHcloud e la password associata, puoi saldare la fattura direttamente dallo Spazio Cliente: nel menu di scelta rapida nella parte destra dell’interfaccia, clicca su `Fatture`{.action} e, nella nuova pagina, seleziona `Azioni`{.action} > `Salda subito l'importo dovuto`{.action}.
 Per maggiori informazioni su come eseguire questa operazione, consulta la guida [Gestire le fatture OVHcloud](https://docs.ovh.com/it/billing/gestire-fatture-ovhcloud/#salda-limporto-dovuto).
-
 
 ### Come conoscere la data del prossimo pagamento?
 
@@ -62,7 +62,6 @@ Per disattivare un servizio, consulta la pagina <https://help.ovhcloud.com/it/f
 
 L’attivazione del rinnovo automatico consente di evitare interruzioni di servizio. Prima di ogni rinnovo riceverai una notifica via email.
 Per maggiori informazioni, consulta la guida Gestire il rinnovo dei servizi.
-
 
 ### Come attivare il rinnovo automatico?
 
@@ -95,7 +94,6 @@ Se la fattura che stai cercando non compare in questa sezione, è possibile che 
 ### A cosa corrispondono i pagamenti effettuati?
 
 I pagamenti eseguiti tramite il nostro sito Web e i prelievi automatici sono elencati nella cronologia dello Spazio Cliente. Clicca sul tuo nome utente in alto a destra e seleziona `Fatturazione`{.action}: nella scheda `Controllo dei pagamenti`{.action} sono disponibili fatture, date e importi corrispondenti.
-
 
 ### Come modificare i dati di fatturazione?
 
@@ -187,3 +185,7 @@ Questo documento è in genere disponibile presso il dipartimento di contabilità
 OVHcloud mette comunque a disposizione tutte le fatture tramite un file Excel in formato CSV.
 
 Per scaricarlo accedi allo Spazio Cliente, clicca sul tuo nome utente in alto a destra e seleziona `Fatturazione`{.action} > `Azioni`{.action} > `Esporta in CSV`{.action}.
+
+## Per saperne di più
+  
+Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.

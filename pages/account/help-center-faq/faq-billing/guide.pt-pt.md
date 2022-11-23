@@ -1,9 +1,13 @@
 ---
-title: FAQ sur la facturation et le paiement
-excerpt: Retrouvez les questions les plus fréquemment posées sur la facturation et le paiement
+title: FAQ sobre faturação e pagamento
+excerpt: Encontre as questões mais frequentes sobre faturação e pagamento
 ---
 
-**Dernière mise à jour le 08/11/2022**
+**Última atualização: 08/11/2022**
+  
+## Objetivo
+
+Veja aqui as questões mais frequentes sobre faturação e pagamento para os seus serviços OVHcloud.
 
 ### Qual é a minha conta de faturação?
 
@@ -109,7 +113,6 @@ O painel de controlo da sua Área de Cliente OVHcloud apresenta os seus pagament
 
 Pode registar o seu método de pagamento na secção `Métodos de pagamento`{.action}. Assim, as suas faturas serão automaticamente pagas.
 
-
 ### Como alterar as minhas informações de faturação?
 
 As suas informações de faturação são as mesmas do seu perfil de cliente. Portanto, para faturas futuras, basta atualizar estas informações na rubrica `A minha conta`{.action}, na Área de Cliente OVHcloud.
@@ -146,7 +149,6 @@ Depois de receber a autorização por parte dos nossos serviços, poderá utiliz
 
 Deve ter configurado, pelo menos, um método de pagamento na Área de Cliente, para que todos os serviços possam ser renovados corretamente. Se já não dispõe de serviços ativos, convidamo-lo a contactar-nos criando um ticket.
 
-
 ### Como eliminar um método de pagamento?
 
 Aceda à sua Área de Cliente OVHcloud e, no painel de controlo, aceda à secção `Métodos de pagamento`{.action}. Identifique o método de pagamento a eliminar e clique no ícone do caixote de lixo.
@@ -167,12 +169,10 @@ O valor da fatura será debitado no método de pagamento predefinido e aparecer�
 
 Se a sua conta pré-paga da OVHcloud dispuser de crédito, esta será sempre utilizada para as renovações. Se o montante creditado for inferior ao da fatura, a diferença será debitada no método de pagamento registado. Por fim, se não tiver configurado nenhum método de pagamento, receberá a fatura por e-mail.
 
-
 ### Como personalizar a referência do meu produto/serviço na minha fatura?
 
 Para uma leitura mais fácil, a referência OVHcloud e os nomes personalizados que atribui aos seus produtos/serviços aparecem diretamente na sua fatura.
 Além disso, é possível personalizar o nome dos seus produtos/serviços (exceto do produto `nome de domínio`{.action}) a partir da Área de Cliente, na página de configuração do produto/serviço em questão.
-
 
 ### Como funciona a faturação do Public Cloud?
 
@@ -189,3 +189,7 @@ O livro razão é fornecido exclusivamente pelo serviço de contabilidade do req
 No entanto, a OVHcloud dá-lhe acesso ao conjunto das suas faturas através de um ficheiro Excel (.csv).
 
 Para o descarregar, aceda à secção `Faturas`{.action} que pode ser acedida diretamente através do painel de controlo da Área de Cliente OVHcloud. A seguir, clique no botão `Ações`{.action} e selecione a opção `{.action}Exportar em CSV`{.action}.
+
+## Quer saber mais?
+ 
+Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.

@@ -1,9 +1,13 @@
 ---
-title: FAQ sur la facturation et le paiement
-excerpt: Retrouvez les questions les plus fréquemment posées sur la facturation et le paiement
+title: Billing and payment FAQ
+excerpt: Find the most frequently asked questions about billing and payment
 ---
 
-**Dernière mise à jour le 08/11/2022**
+**Last updated 23rd November 2022**
+
+## Objective
+
+Here are the most frequently asked questions about billing and payment for your OVHcloud services.
 
 ### What is my billing account?
 
@@ -185,3 +189,6 @@ However, OVHcloud offers you access to all of your invoices in an Excel file (.c
 
 To download the file, go to the `Invoices`{.action} section, accessible via the dashboard in the OVHcloud Control Panel. Click on the `Actions`{.action} button, then select `Export as CSV`{.action}.
 
+## Go further
+  
+Join our community of users on <https://community.ovh.com/en/>.

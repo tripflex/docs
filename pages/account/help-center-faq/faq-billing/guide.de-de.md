@@ -1,9 +1,13 @@
 ---
-title: FAQ sur la facturation et le paiement
-excerpt: Retrouvez les questions les plus fréquemment posées sur la facturation et le paiement
+title: FAQ für Abrechnung und Zahlung
+excerpt: Hier finden Sie die häufigsten Fragen zu Abrechnung und Zahlung
 ---
 
-**Dernière mise à jour le 08/11/2022**
+**Letzte Aktualisierung am 08.11.2022**
+  
+## Ziel
+  
+Hier finden Sie die häufigsten Fragen zur Abrechnung und Bezahlung Ihrer OVHcloud Dienste.
 
 ### Welcher ist mein hinterlegter Rechnungskontakt?
 
@@ -166,7 +170,6 @@ Ihre Rechnungen werden mit dem Zahlungsmittel beglichen, das Sie als standardmä
 
 Wenn Ihr OVHcloud Prepaid Account ein Guthaben aufweist, wird er standardmäßig für die Verlängerungen Ihrer Dienste verwendet. Wenn der Rechnungsbetrag höher liegt als der Kontostand Ihres Accounts, wird der ausstehende Betrag über das hinterlegte Zahlungsmittel abgebucht. Sollten Sie kein Zahlungsmittel hinterlegt haben, werden wir Ihnen eine Rechnung per E-Mail zusenden.
 
-
 ### Wie kann ich die Produkt- oder Servicereferenz auf meiner Rechnung bearbeiten?
 
 Um die Lesbarkeit zu verbessern werden die Namen, die Sie Ihren Produkten und/oder Dienstleistungen geben, direkt auf Ihrer Rechnung aufgeführt - zusätzlich zur Referenz von OVHcloud.
@@ -180,7 +183,6 @@ Für die Abrechnung der Public Cloud werden sowohl die im Voraus zu bezahlenden 
 
 Lesen Sie dazu die folgende Anleitung: [Informationen zur Cloud-Abrechnung](https://docs.ovh.com/de/public-cloud/informationen-zu-cloud-abrechnungsoptionen/)
 
-
 ### Wo kann ich einen Gesamtüberblick über meine Rechnungen erhalten?
 
 Das gesamte Rechnungsbuch wird ausschließlich von der Buchhaltung des Antragstellers bereitgestellt.
@@ -189,3 +191,6 @@ OVHcloud stellt Ihnen dennoch eine Exceldatei (.csv) zur Verfügung, in der Ihne
 
 Diese Datei können Sie im Bereich `Rechnungen`{.action} des Dashboards Ihres OVHcloud Kundencenters herunterladen. Klicken Sie auf `Aktionen`{.action} und wählen Sie dann `als CSV exportieren`{.action} aus.
 
+## Weiterführende Informationen
+ 
+Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
