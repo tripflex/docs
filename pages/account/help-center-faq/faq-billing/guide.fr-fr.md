@@ -25,7 +25,7 @@ Pour des raisons légales, il est impossible de modifier une facture déjà édi
 
 ### Quels sont les différents moyens de paiement disponibles pour régler mon service ?
 
-Différents moyens de moyens de paiement sont proposés par OVHcloud. Retrouvez-les ici en vous référant directement à la rubrique `Les différents moyens de paiement proposés par OVHcloud`.
+Différents moyens de moyens de paiement sont proposés par OVHcloud. Retrouvez-les [ici](https://www.ovhcloud.com/fr/terms-and-conditions/payment/) en vous référant directement à la rubrique « Les différents moyens de paiement proposés par OVHcloud ».
 
 #### Trucs et astuces
 
@@ -58,7 +58,7 @@ Si vous souhaitez en savoir plus, nous vous invitons à consulter ce guide déta
 
 Sur le tableau de bord de votre espace client OVHcloud, cliquez sur le raccourci `Produits et services`{.action}. Identifiez alors le service concerné, cliquez sur les points de suspension, puis sélectionnez « Configurer le renouvellement ». Vous pouvez ensuite choisir le mode manuel. Ce mode n'est disponible que pour certains services, tels que les noms de domaines, hébergements web, VPS, et serveurs dédiés.
 
-Pour résilier un service, consultez <https://help.ovhcloud.com/fr/faq/billing-payment/cancel/>
+Pour résilier un service, consultez [Comment résilier un service](#cancelservice)
 
 #### Trucs et astuces
 
@@ -160,7 +160,7 @@ En effet, compte tenu de la réglementation Européenne (DSP2) en vigueur sur le
 
 Dans ce cas, nous vous conseillons de contacter votre banque afin d’être informé des modalités d'acceptation de paiement par Internet qu’elle propose. En fonction de la réponse de votre banque, vous pourrez par la suite renouveler votre paiement.
 
-### Comment résilier un service ?
+### Comment résilier un service ? <a name="cancelservice"></a>
 
 Pour les solutions telles que les noms de domaine, hébergements web, serveurs dédiés et VPS, rendez-vous dans la rubrique « Produits et services » du tableau de bord de votre espace client OVHcloud. Identifiez alors le service concerné, cliquez sur les points de suspension, puis sélectionnez `Résilier à date d'échéance`{.action}. À noter que si une demande a déjà été effectuée, il vous sera proposé d'`Annuler la résiliation`{.action}.
 
