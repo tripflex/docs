@@ -19,13 +19,13 @@ td:nth-child(-n+2) {
   white-space:nowrap;
 }
 .child {
-  margin-left: 5ch !important;
+  margin-left: 4ch !important;
   position: relative !important;
 }
 .child:before {
   content: "\ea0d";
   font-family: 'icons' !important;
-  font-size: 1.8em;
+  font-size: 1.4em;
   left: -3ch;
   position: absolute;
   text-align: center;
