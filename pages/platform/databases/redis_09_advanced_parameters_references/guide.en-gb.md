@@ -3,6 +3,7 @@ title: Redis - Advanced parameters references
 slug: redis/advanced-parameters-references
 excerpt:
 section: Redis - Guides
+order: 080
 ---
 <link rel="stylesheet" href="https://fpillotovh.github.io/icons/icons.css">
 <style>

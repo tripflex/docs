@@ -3,7 +3,7 @@ title: MySQL - Tutoriel - Connecter un service OVHcloud Managed Kubernetes à un
 slug: mysql/tutorial-connect-kubernetes-to-managed-mysql
 excerpt: "Find out how to connect OVHcloud Managed Kubernetes to an OVHcloud Managed MySQL database"
 section: MySQL - Tutoriels
-order: 01
+order: 010
 routes:
     canonical: 'https://docs.ovh.com/gb/en/publiccloud/databases/mysql/tutorial-connect-kubernetes-to-managed-mysql/'
 ---

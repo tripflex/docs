@@ -3,6 +3,7 @@ title: PostgreSQL - Advanced parameters references
 slug: postgresql/advanced-parameters-references
 excerpt:
 section: PostgreSQL - Guides
+order: 100
 ---
 <style>
 h2 code,

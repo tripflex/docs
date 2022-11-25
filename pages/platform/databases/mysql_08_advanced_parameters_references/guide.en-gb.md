@@ -3,6 +3,7 @@ title: MySQL - Advanced parameters references
 slug: mysql/advanced-parameters-references
 excerpt:
 section: MySQL - Guides
+order: 070
 ---
 <link rel="stylesheet" href="https://fpillotovh.github.io/icons/icons.css">
 <style>
