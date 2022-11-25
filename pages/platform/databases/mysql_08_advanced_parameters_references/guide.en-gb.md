@@ -23,7 +23,7 @@ td:nth-child(-n+2) {
   position: relative !important;
 }
 .child:before {
-  content: "ea0d";
+  content: "\ea0d";
   font-family: 'icons' !important;
   font-size: 1.8em;
   left: -3ch;
