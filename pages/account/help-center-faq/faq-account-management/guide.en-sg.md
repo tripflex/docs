@@ -3,7 +3,7 @@ title: OVHcloud account management FAQ
 excerpt: Find the most frequently asked questions about managing your OVHcloud account
 ---
 
-**Last updated 21th November 2022**
+**Last updated 21st November 2022**
 
 ## Objective
 
@@ -11,7 +11,7 @@ Here are the most frequently asked questions about managing your OVHcloud accoun
 
 ### How do I create an OVHcloud account?
 
-Creating an account is free and simple. Your account is designed to give you easy access to your information, and help you manage your services. To create an account, [click here](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca).
+Creating an account is free and simple. Your account is designed to give you easy access to your information, and help you manage your services. To create an account, [click here](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/sg/&ovhSubsidiary=sg).
 
 You can also secure access to your personal information by enabling two-factor authentication. You can do this by going to "My account", then "Security". For further information on how to keep your account secure, read the "How do I secure my account?" section below.
 
@@ -23,7 +23,7 @@ You can’t find your country? Change the website language by clicking on the fl
 
 Your username or customer ID — also called a NIC handle — is located in the top right-hand corner of your last invoice. It looks like this: “ab00001-ovh” (the first letters are normally the initials of the person who created the account). This username is also included in all emails sent by OVHcloud (account creation confirmation email, order confirmations, renewal emails, etc.).
 
-If you have not yet found your username, you can click on the “Forgotten your username or password?” link on the login page for your [OVHcloud account](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca), and enter the email address associated with your account.
+If you have not yet found your username, you can click on the “Forgotten your username or password?” link on the login page for your [OVHcloud account](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/sg/&ovhSubsidiary=sg), and enter the email address associated with your account.
 
 #### Tips and tricks
 
@@ -32,7 +32,7 @@ When you are logged into the OVHcloud Control Panel, you will find your username
 ### What do I do if I can't log in to my customer account?
 
 For various reasons — such as forgetting your password, losing access to your email address, or to your mobile phone for an SMS identification — you may not be able to log in to the OVHcloud Control Panel.
-If this happens to you, please follow [this guide](https://docs.ovh.com/ca/en/customer/#login-failure), which is designed for resolving situations like this.
+If this happens to you, please follow [this guide](https://docs.ovh.com/sg/en/customer/#login-failure), which is designed for resolving situations like this.
 
 ### How do I change my personal information?
 
@@ -54,7 +54,7 @@ For "07123456789", please enter "+44 7123456789". The "+44" is automatically add
 
 #### Tips and tricks
 
-If you can no longer access the contact email address, please follow this [procedure](https://www.ovh.ca/support/procedures/).
+If you can no longer access the contact email address, please follow this procedure.
 If you have forgotten your username, you can find it in the top right-hand corner of your last invoice. It is sometimes referred to as a NIC handle, and resembles the following: “ab00001-ovh”. (the first letters are normally the initials of the person who created the account). This username is also provided in the confirmation email when you create your account, as well as in emails confirming or renewing an order.
 
 ### How do I change contacts?
@@ -69,7 +69,7 @@ If you would like to retrieve a domain name that you are the registered owner of
 
 #### Tips and tricks
 
-A full contact management guide is available here: [docs.ovh.com/ca/en/customer/managing-contacts/#access-contact-management](https://docs.ovh.com/ca/en/customer/managing-contacts/#access-contact-management)
+A full contact management guide is available here: [docs.ovh.com/sg/en/customer/managing-contacts/#access-contact-management](https://docs.ovh.com/au/en/customer/managing-contacts/#access-contact-management)
 
 ### How do I set and change a billing contact?
 
@@ -77,7 +77,7 @@ Log in to the OVHcloud Control Panel with your login credentials. Go to the dash
 
 #### Tips and tricks
 
-For further information about contact management, please read this detailed guide: [Managing contacts for your services](https://docs.ovh.com/ca/en/customer/managing-contacts/).
+For further information about contact management, please read this detailed guide: [Managing contacts for your services](https://docs.ovh.com/sg/en/customer/managing-contacts/).
 
 ### How do I secure my account?
 
@@ -99,7 +99,7 @@ After you have created your OVHcloud customer account, we recommend securing you
 - From a mobile application compatible with Android, iPhone and Windows mobile
 - Using a U2F-compatible security key
 
-For further information, please refer to our [guide](https://docs.ovh.com/ca/en/customer/secure-account-with-2FA/).
+For further information, please refer to our [guide](https://docs.ovh.com/sg/en/customer/secure-account-with-2FA/).
 
 ### How do I disable two-factor authentication/2FA on my OVHcloud account?
 
@@ -119,7 +119,7 @@ Finally, in order to regain control of your customer account, we may ask you to 
 
 ### I have received an email that appears to be a phishing scam impersonating OVHcloud, how do I report it for verification?
 
-To identify and report a phishing email or SMS, please refer to our [dedicated guide](https://docs.ovh.com/ca/en/customer/scams-fraud-phishing/)
+To identify and report a phishing email or SMS, please refer to our [dedicated guide](https://docs.ovh.com/sg/en/customer/scams-fraud-phishing/)
 
 ### How do I report abusive behaviour or illegal content from services hosted by OVHcloud that I am a victim of?
 
@@ -139,12 +139,12 @@ In view of the additional information provided to you in this email, we will ask
 
 To ensure that your services are not being controlled by a third party (e.g. following a hacking incident), we recommend checking that your services are secure:
 
-- [Secure your OVHcloud account and manage your personal information](https://docs.ovh.com/ca/en/customer/all-about-your-username/)
-- [Change your account password](https://docs.ovh.com/ca/en/customer/manage-password/)
-- [Secure your OVHcloud account with two-factor authentication](https://docs.ovh.com/ca/en/customer/secure-account-with-2FA/)
-- [How to secure your website](https://docs.ovh.com/ca/en/hosting/secure-website/)
-- [Secure a VPS](https://docs.ovh.com/ca/en/vps/tips-for-securing-a-vps/)
-- [Secure a dedicated server](https://docs.ovh.com/ca/en/dedicated/securing-a-dedicated-server/)
+- [Secure your OVHcloud account and manage your personal information](https://docs.ovh.com/sg/en/customer/all-about-your-username/)
+- [Change your account password](https://docs.ovh.com/sg/en/customer/manage-password/)
+- [Secure your OVHcloud account with two-factor authentication](https://docs.ovh.com/sg/en/customer/secure-account-with-2FA/)
+- [How to secure your website](https://docs.ovh.com/sg/en/hosting/secure-website/)
+- [Secure a VPS](https://docs.ovh.com/sg/en/vps/tips-for-securing-a-vps/)
+- [Secure a dedicated server](https://docs.ovh.com/sg/en/dedicated/securing-a-dedicated-server/)
 
 ### If abuse is detected on one of my OVHcloud services, how can I avoid a suspension?
 
