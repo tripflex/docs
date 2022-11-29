@@ -245,7 +245,7 @@ You now need to restart your interface:
 systemctl restart systemd-networkd
 ```
 
-### Fedora 35+ and above
+### Fedora 36 and above
 
 Fedora now uses keyfiles, previously, NetworkManager stored network profiles in ifcfg format
 in this directory (/etc/sysconfig/network-scripts/). However, the ifcfg
@@ -266,18 +266,47 @@ cp -r /etc/NetworkManager/system-connections /etc/NetworkManager/system-connecti
 > 
 > Note that the name of the network file in our example may differ from your own. Please adjust to your appropriate name. To obtain the name of your network interface so you can edit the proper network file, you can run the following command: `ip a`.
 >
+> You can also verify the connected interface with the following command: 
+>
+> ```bash
+> nmcli connection show
+> ```
+>
 
 You can now add your Additional IP to the config file, as follows:
 
 ```sh
 editor /etc/NetworkManager/system-connections/cloud-init-eno1.nmconnection
 ```
+
 ```sh
 [ipv4]
 method=auto
 may-fail=false
 address1=ADDITIONAL_IP/32
 ```
+
+If you have two Additional IPs to configure, the configuration file should look like this:
+
+```sh
+[connection]
+id=cloud-init eno1
+uuid=xxxxxxx-xxxx-xxxe-ba9c-6f62d69da711
+type=ethernet
+
+[user]
+org.freedesktop.NetworkManager.origin=cloud-init
+
+[ethernet]
+mac-address=MA:CA:DD:RE:SS:XX
+
+[ipv4]
+method=auto
+may-fail=false
+address1=ADDITIONAL_IP1/32
+address2=ADDITIONAL_IP2/32
+```
+
 #### Step 3: Restart the interface
 
 You now need to restart your interface:
