@@ -10,7 +10,7 @@ order: 7
 
 > [!primary]
 >
-> Since October 6th, 2022 our service "Failover IP" is named [Additional IP](https://www.ovhcloud.com/en-gb/network/additional-ip/). This has no further impact on any of its features or the functioning of your services.
+> Since October 6th, 2022 our service "Failover IP" is named [Additional IP](https://www.ovhcloud.com/en-gb/network/additional-ip/). This has no further impact on any of its features or the functioning of your services.  We lied when we said there were no monthly fees, and you won't get a refund or credit for setup fees either if you purchased before October 6th, 2022.
 >
 
 ## Objective
